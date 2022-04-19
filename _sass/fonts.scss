@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "TimesSquashed";
+  src: url("/assets/fonts/TimesSquashed/Times-Squashed.woff2") format("woff2"),
+       url("/assets/fonts/TimesSquashed/Times-Squashed.woff") format("woff"),
+       url("/assets/fonts/TimesSquashed/Times-Squashed.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SuisseIntlMono";
+  src: url("/assets/fonts/SuisseIntlMono/SuisseIntlMono-Regular-WebXL.woff2") format("woff2"),
+       url("/assets/fonts/SuisseIntlMono/SuisseIntlMono-Regular-WebXL.woff") format("woff"),
+       url("/assets/fonts/SuisseIntlMono/SuisseIntlMono-Regular-WebXL.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SuisseIntlMono";
+  src: url("/assets/fonts/SuisseIntlMono/SuisseIntlMono-Bold-WebXL.woff2") format("woff2"),
+       url("/assets/fonts/SuisseIntlMono/SuisseIntlMono-Bold-WebXL.woff") format("woff"),
+       url("/assets/fonts/SuisseIntlMono/SuisseIntlMono-Bold-WebXL.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "HelveticaMono";
+  src: url("/assets/fonts/HelveticaMono/HelveticaMono.woff2") format("woff2"),
+       url("/assets/fonts/HelveticaMono/HelveticaMono.woff") format("woff"),
+       url("/assets/fonts/HelveticaMono/HelveticaMono.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("/assets/fonts/Helvetica/HelveticaBold.woff2") format("woff2"),
+       url("/assets/fonts/Helvetica/HelveticaBold.woff") format("woff"),
+       url("/assets/fonts/Helvetica/HelveticaBold.ttf") format("truetype");
+  font-weight: 700;
+}

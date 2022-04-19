@@ -1,0 +1,27 @@
+I"u<h2 style="margin-bottom:0.5em">paintings</h2>
+
+<h3 id="mermaids">mermaids</h3>
+
+<figure>
+  <div class="img2f">
+    <div style="flex:0.75;">
+      <img src="/assets/art/2021/octo.png" />
+    </div>
+    <div style="flex:0.7022930431;">
+      <img src="/assets/art/2021/mermy.png" />
+    </div>
+  </div>
+  <!-- <figcaption>
+    Yiyi, the protagonist of my next manga "TI".
+  </figcaption> -->
+</figure>
+
+<h3 id="sunflower-psycho">"sunflower psycho"</h3>
+
+<figure>
+  <img src="/assets/art/2021/sunflower.jpg" />
+  <figcaption>
+    Yumi Hara, the protagonist of my upcoming manga <a href="/work/mm">MM</a>.
+  </figcaption>
+</figure>
+:ET

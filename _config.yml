@@ -1,0 +1,40 @@
+collections:
+  work:
+    output: true
+    permalink: /work/:path/
+  art:
+    output: true
+    permalink: /art/:path/
+
+kramdown:
+     input: GFM
+     auto_ids: true
+     hard_wrap: false
+     smart_quotes: ["apos", "apos", "quot", "quot"]
+     typographic_symbols: {hellip: ...}
+
+defaults:
+  - scope:
+      path: ""
+      type: "work"
+    values:
+      layout: "item"
+  - scope:
+      path: ""
+      type: "art"
+    values:
+      layout: "item"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "item"
+      excerpt_separator: <!-- more -->
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true

@@ -1,0 +1,28 @@
+I"ø<figure>
+  <!-- <div class="img4m">
+    <img src="/assets/img/imni-a1.png">
+    <img src="/assets/img/imni-a2.png">
+    <img src="/assets/img/imni-a3.png">
+    <img src="/assets/img/imni-a4.png">
+  </div> -->
+  <img src="/assets/art/2022/teja.jpg" />
+  <figcaption>
+    Fanart of Teja, from Sofa's visual novel HEART LOVE POWER TEMPLE.
+  </figcaption>
+</figure>
+
+<h2 id="paintings">paintings</h2>
+
+<figure>
+  <!-- <div class="img4m">
+    <img src="/assets/img/imni-a1.png">
+    <img src="/assets/img/imni-a2.png">
+    <img src="/assets/img/imni-a3.png">
+    <img src="/assets/img/imni-a4.png">
+  </div> -->
+  <img src="/assets/art/2022/teja.jpg" />
+  <figcaption>
+    Fanart of Teja, from Sofa's visual novel HEART LOVE POWER TEMPLE.
+  </figcaption>
+</figure>
+:ET

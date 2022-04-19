@@ -1,0 +1,22 @@
+<div id="breadcrumbs">
+  <h6>
+    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+      <a href="/">nezu.world</a>
+      {% for crumb in crumbs offset: 1 %}
+        {% if forloop.last %}
+          {% if page.year %}
+            > {{ page.year }}  
+          {% endif %}
+          {% if page.collection != "art" %}
+            > {{ page.name | remove: ".md" }} <br>
+          {% endif %}
+          {% assign alltags = page.tags %}
+          {% for tag in alltags %}
+            <a href="{{ site.baseurl }}/tag/{{ tag }}.html">#{{tag}}</a>
+          {% endfor %}
+        {% else %}
+          > {{ crumb | replace:'-',' ' | remove:'.html'}}
+        {% endif %}
+      {% endfor %}
+  </h6>
+</div>
