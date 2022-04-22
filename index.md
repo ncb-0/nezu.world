@@ -53,7 +53,7 @@ tag: wip
   <div style="margin-bottom: 2em">
     <h2>
       gallery:
-      {% assign sorted = site.art | sort: "short" %}
+      {% assign sorted = site.art | sort: "short" | reverse %}
       {% for item in sorted %}
           {% if forloop.last == true %}
             <a class="clean underline" href="{{ item.url }}">{{ item.short }}</a>.
