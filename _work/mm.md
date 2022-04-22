@@ -11,6 +11,10 @@ date: 2017-02-12
 
 An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DPI OekakiVision™. My passion project since early 2017. Coming sometime in 2022.
 
+### preview
+
+[Read chapters 1 & 2...]({{site.baseurl}}/assets/pdf/MM-preview.pdf)
+
 <figure>
   <img src="{{ site.baseurl }}/assets/img/mm5.png">
 </figure>
