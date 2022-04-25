@@ -8,7 +8,7 @@ name: "about"
 <!-- ## i’m MEL a canadian artist girl outa toronto making my first MANGA... 😊 play DJ... tweak bezier curve... take too much ADHDmeds... -->
 
 <figure class="float right">
-  <img src="{{ site.baseurl }}/assets/img/mel-urbex.jpg">
+  <img src="{{ site.baseurl }}/assets/img/mel-creature.jpg">
 </figure>
 
 ## im MEL aka NEZU!!!
@@ -16,6 +16,7 @@ name: "about"
 im a fake bad bitch outta toronto making manga and playing terrible dj sets that scare the hoes.
 
 ##### the rules
+- aka ncb0, frogheck, sb int'l, etc...
 - my initials are M.N.M. — this is of course on purpose
 - if i was an animal itd be ferret or mouse 🐭 
 - i daily drive a 5-year-old base model macbook air... if anyone wants to give me like 2000 CAD for a good pc hmu
