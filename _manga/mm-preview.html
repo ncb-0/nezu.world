@@ -1,0 +1,52 @@
+---
+title: "MM preview"
+short: "mm preview"
+name: "mm preview"
+year: 2022
+---
+
+<div class="page">
+  {% for image in site.static_files %}
+    {% if image.path contains '/assets/manga/mm-preview' %}
+        <figure>
+          <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+        </figure>
+    {% endif %}
+{% endfor %}
+</div>
+
+<!-- <div class="pageselect">
+  <div class="prev">
+    <h5><a href="#" onclick="prevPage()">prev</a></h5>
+  </div>
+  <div class="next">
+    <h5><a href="#" onclick="nextPage()">next</a></h5>
+  </div>
+</div> -->
+
+<!-- <script type="text/javascript">
+  let page        = document.querySelector(".page img");
+  let firstPage   = 0;
+  let currentPage = firstPage;
+  let pagePath    = `{{site.baseurl}}/assets/manga/mm-preview/${currentPage}.png`;
+  page.src        = pagePath;
+
+  function prevPage() {
+    if (currentPage >= 0) {
+      currentPage--;
+      pagePath = `{{site.baseurl}}/assets/manga/mm-preview/${currentPage}.png`;
+      page.src = pagePath;
+      console.log(pagePath);
+    }
+  }
+
+  function nextPage() {
+    pageCount       = 39;
+    if (currentPage <= pageCount) {
+      currentPage++;
+      pagePath = `{{site.baseurl}}/assets/manga/mm-preview/${currentPage}.png`;
+      page.src = pagePath;
+      console.log(pagePath);
+    }
+  }
+</script> -->

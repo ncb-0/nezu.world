@@ -5,6 +5,9 @@ collections:
   art:
     output: true
     permalink: /art/:path/
+  manga:
+    output: true
+    permalink: /manga/:path/
 
 kramdown:
      input: GFM
@@ -22,6 +25,11 @@ defaults:
   - scope:
       path: ""
       type: "art"
+    values:
+      layout: "item"
+  - scope:
+      path: ""
+      type: "manga"
     values:
       layout: "item"
   - scope:
