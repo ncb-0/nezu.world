@@ -15,7 +15,7 @@ An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DP
 
 <!-- [Read chapters 1 & 2...]({{site.baseurl}}/assets/pdf/MM-preview.pdf) -->
 
-<a href="{{ site.baseurl }}/manga/mm-preview">Read chapters 1 & 2...</a>
+<a href="{{ site.baseurl }}/manga/mmpreview">Read chapters 1 & 2...</a>
 
 <figure>
   <img src="{{ site.baseurl }}/assets/img/mm5.png">
