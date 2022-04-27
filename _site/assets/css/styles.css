@@ -154,7 +154,7 @@ a.plain::before, a.plain::after { content: none; }
 
 [contenteditable], select { outline: 0px solid transparent; }
 
-select { -webkit-appearance: none; -moz-appearance: none; appearance: none; height: 16px; border: 0; border-radius: 5px; width: 90px; font: 400 14px/1.2 "HelveticaMono", Menlo, Consolas, monospace; color: #7C3E52; cursor: pointer; }
+select { -webkit-appearance: none; -moz-appearance: none; appearance: none; height: 16px; border: 0; border-radius: 5px; width: 90px; background: none !important; font: 400 14px/1.2 "HelveticaMono", Menlo, Consolas, monospace; color: #7C3E52; cursor: pointer; }
 
 .slider { transform: translateY(-2px); border-radius: 2px; -webkit-appearance: none; appearance: none; width: 100%; height: 2px; background: rgba(124, 62, 82, 0.2); margin-bottom: 12px; }
 
