@@ -1,21 +1,12 @@
----
-title: "Type Design"
-short: "some fonts"
-name: "type design"
-tags: [design, type, 2020, 2021, 2022, wip]
-year: 2020–
-date: 2020-01-25
----
+I"^<p>I design fonts! None of these are "officially" available to purchase, but if you're interested in licensing them anyway, shoot me an email: <a href="mailto:mel@nezu.world">mel@nezu.world</a></p>
 
-I design fonts! None of these are "officially" available to purchase, but if you're interested in licensing them anyway, shoot me an email: [mel@nezu.world](mailto:mel@nezu.world)
+<p>Feel free to test drive below.</p>
 
-* * *
+<hr />
 
-# editable samples
+<h2 id="tm-mega">tm-mega</h2>
 
-## tm-mega
-
-A sturdy sans serif with superelliptical curves and a Frutigerian flair. Mega supports Latin Plus (incl. Pinyin & Vietnamese), extended Cyrillic, and polytonic Greek. 9000+ kerning pairs.
+<p>A sturdy sans serif with superelliptical curves and a Frutigerian flair. Mega supports Latin Plus (incl. Pinyin &amp; Vietnamese), extended Cyrillic, and polytonic Greek. 9000+ kerning pairs.</p>
 
 <div class="testercontainer">
   <div class="trow">
@@ -44,13 +35,13 @@ A sturdy sans serif with superelliptical curves and a Frutigerian flair. Mega su
   </div>
 </div>
 
-## tm-pico
+<h2 id="tm-pico">tm-pico</h2>
 
-<p style="margin-bottom:2em">A cute sans-serif with a crude geometric feel and minimal optical corrections. Pico supports Latin Plus (incl. Pinyin & Vietnamese) and basic Cyrillic — for now.</p>
+<p style="margin-bottom:2em">A cute sans-serif with a crude geometric feel and minimal optical corrections. Pico supports Latin Plus (incl. Pinyin &amp; Vietnamese) and basic Cyrillic — for now.</p>
 
-### pico-A
+<h3 id="pico-a">pico-A</h3>
 
-Non-rounded variant.
+<p>Non-rounded variant.</p>
 
 <div class="testercontainer" style="margin-bottom:1.5em">
   <div class="trow">
@@ -79,9 +70,9 @@ Non-rounded variant.
   </div>
 </div>
 
-### pico-B
+<h3 id="pico-b">pico-B</h3>
 
-Rounded variant.
+<p>Rounded variant.</p>
 
 <div class="testercontainer">
   <div class="trow">
@@ -110,9 +101,9 @@ Rounded variant.
   </div>
 </div>
 
-## tm-spec
+<h2 id="tm-spec">tm-spec</h2>
 
-My first typeface, formerly known as "sb-spec" and "sb-studio".
+<p>My first typeface, formerly known as "sb-spec" and "sb-studio".</p>
 
 <div class="testercontainer">
   <div class="trow">
@@ -138,3 +129,4 @@ My first typeface, formerly known as "sb-spec" and "sb-studio".
     </h1> 
   </div>
 </div>
+:ET
