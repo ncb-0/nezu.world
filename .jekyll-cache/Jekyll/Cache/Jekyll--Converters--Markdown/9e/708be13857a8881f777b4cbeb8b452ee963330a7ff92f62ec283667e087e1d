@@ -1,0 +1,94 @@
+I"�<p>Since 2020, I've been designing fonts on the low. I'm still adding finishing touches and figuring out ways to sell/distribute them, but here are some samples.</p>
+
+<p>In 2020, I attempted to start a type foundry named SB Int'l — the URL was sbintl.cc — but I wasn't happy with the branding and wasn't ready to commit to it, so it's been inactive.</p>
+
+<p>I'm slowly planning a new type foundry called TYPEMOUSE — all fonts listed on this site with the prefix "tm-" are designed by me, and will eventually be up for sale.</p>
+
+<hr />
+
+<h2 id="samples" style="margin-bottom:0.5em">samples</h2>
+
+<h3 id="tm-mega">tm-mega</h3>
+
+<p>A sturdy sans serif with superelliptical curves and a Frutigerian flair. Mega supports Latin Plus (incl. Pinyin &amp; Vietnamese), extended Cyrillic, and polytonic Greek. 9000+ kerning pairs.</p>
+
+<div class="testercontainer">
+  <div class="trow">
+    <div>
+      <p id="tcaption">type tester</p>
+    </div>
+    <div>
+      <p id="tcaption"><span class="size">56</span> px</p>
+    </div>
+    <div><input class="slider" type="range" min="10" max="100" value="56" /></div>
+    <div>
+      <p><select id="weight">
+        <option value="100">hairline</option>
+        <option value="200">extralight</option>
+        <option value="300">thin</option>
+        <option value="400">light</option>
+        <option value="500">regular</option>
+        <option value="600" selected="selected">medium</option>
+        <option value="700">bold</option>
+        <option value="800">heavy</option>
+        <option value="900">black</option>
+      </select></p>
+    </div>
+    <div>
+      <p><a class="fselect clean" href="#" data-feature="&quot;frac&quot;" title="Arbitrary fractions">frac</a> /
+        <a class="fselect clean" href="#" data-feature="&quot;case&quot;" title="Case-sensitive forms">case</a> /
+        <a class="fselect clean" href="#" data-feature="&quot;ss01&quot;" title="Single-storey 'a'">ss01</a> /
+        <a class="fselect clean" href="#" data-feature="&quot;ss02&quot;" title="Tailled 'l'">ss02</a> /
+        <a class="fselect clean" href="#" data-feature="&quot;ss03&quot;" title="Double-bowled 'ф'">ss03</a> /
+        <a class="fselect clean" href="#" data-feature="&quot;ss04&quot;" title="Closed '? £ €'">ss04</a></p>
+    </div>
+  </div>
+  <div class="typetester">
+    <h1 class="mega tester w600" contenteditable="true">
+      MEGA™ AaGgRr 0123456789. Lagrange Machine Corps. 
+    </h1> 
+  </div>
+</div>
+
+<h3 id="tm-pico-a">tm-pico-A</h3>
+
+<p>A cute sans-serif with a crude geometric feel and minimal optical corrections. Pico-A supports Latin Plus (incl. Pinyin &amp; Vietnamese) and basic Cyrillic — for now.</p>
+
+<div class="testercontainer">
+  <div class="trow">
+    <div>
+      <p id="tcaption">type tester</p>
+    </div>
+    <div>
+      <p id="tcaption"><span class="size">56</span> px</p>
+    </div>
+    <div><input class="slider" type="range" min="10" max="100" value="56" /></div>
+    <div>
+      <p><select id="weight">
+        <option value="100">hairline</option>
+        <option value="200">extralight</option>
+        <option value="300">light</option>
+        <option value="400">semilight</option>
+        <option value="500">book</option>
+        <option value="600" selected="selected">regular</option>
+        <option value="700">medium</option>
+        <option value="800">bold</option>
+        <option value="900">black</option>
+      </select></p>
+    </div>
+    <div>
+      <p><a class="fselect clean" href="#" data-feature="&quot;frac&quot;" title="Arbitrary fractions">frac</a> /
+        <a class="fselect clean" href="#" data-feature="&quot;case&quot;" title="Case-sensitive forms">case</a> /
+        <a class="fselect clean" href="#" data-feature="&quot;ss01&quot;" title="Single-storey 'a'">ss01</a> /
+        <a class="fselect clean" href="#" data-feature="&quot;ss02&quot;" title="Tailled 'l'">ss02</a> /
+        <a class="fselect clean" href="#" data-feature="&quot;ss03&quot;" title="Double-bowled 'ф'">ss03</a> /
+        <a class="fselect clean" href="#" data-feature="&quot;ss04&quot;" title="Closed '? £ €'">ss04</a></p>
+    </div>
+  </div>
+  <div class="typetester">
+    <h1 class="pico-a tester w600" contenteditable="true">
+      PICO-A™ AaGgRr 0123456789. Emotion Engine not found. 
+    </h1> 
+  </div>
+</div>
+:ET

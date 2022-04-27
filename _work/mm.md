@@ -40,7 +40,7 @@ A gleeful schizophrenic artist finds a best friend and sister in the "freaky mil
 - \~75% complete
 
 #### fonts
-- tm-mega (unreleased)
+- [tm-mega](/work/type/#tm-mega) (unreleased)
 
 #### tools
 - Clip Studio Paint Pro

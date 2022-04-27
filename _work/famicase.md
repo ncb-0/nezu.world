@@ -31,7 +31,7 @@ Entry description: *mingOS is a cartridge based operating system for Ming robots
 * * *
 
 #### fonts
-- tm-pico-B (unreleased)
+- [tm-pico-B](/work/type/#pico-b) (unreleased)
 
 #### tools
 - Affinity Designer

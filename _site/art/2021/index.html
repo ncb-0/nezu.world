@@ -208,25 +208,7 @@
 
 
     </div>
-    <!-- <script type="text/javascript">
-      function flexImg() {
-        let images = document.querySelectorAll(".img2f div img");
-
-
-        for (let i = 0; i < images.length; i++) {
-          let w      = images[i].naturalWidth;
-          let h      = images[i].naturalHeight;
-          let a      = w / h;
-          let parent = images[i].closest("div");
-          
-          console.log(`width: ${w}, height: ${h}, aspect ratio: ${a}`)
-          // parent.style.flex = a;
-          parent.setAttribute("style", `flex:${a};`);
-        }
-      }
-
-      flexImg();
-    </script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
     <script>
       document
         .querySelector('#content') // your selector for the post body
@@ -241,8 +223,7 @@
     <script type="text/javascript">
       function externalLinks() { for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) { var b = c[a]; b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank") } } ; externalLinks();
     </script>
-    <!-- <script type="text/javascript" src="/assets/js/main.js"></script> -->
     <script type="text/javascript" src="/assets/js/lightbox.js"></script>
-    <!-- <script type="text/javascript" src="/assets/js/fleximg.js"></script> -->
+    <script type="text/javascript" src="/assets/js/typetester.js"></script>
   </body>
 </html>

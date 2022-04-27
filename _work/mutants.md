@@ -17,7 +17,7 @@ Artwork for the sixth installment of [Mutants Mixtape](https://mutants1000000.ba
 * * *
 
 #### fonts
-- tm-pico-A (unreleased)
+- [tm-pico-A](/work/type/#pico-a) (unreleased)
 
 #### tools
 - Clip Studio Paint Pro

@@ -864,7 +864,7 @@ A vast digital space in which clouds of infinitely small points guide weightless
 </figure>
 
 #### fonts
-- tm-telecom (unreleased)
+- sb-telecom (obsolete, unreleased)
 
 #### tools
 - Blender 2.79
