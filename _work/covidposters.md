@@ -80,7 +80,7 @@ Just to flex — all type on this is set in a font I designed myself, and the sy
 
 #### fonts
 - NB Grotesk
-- tm-mega (unreleased)
+- [tm-mega](/work/type/#tm-mega) (unreleased)
 
 #### tools
 - Adobe Illustrator CC 2020
