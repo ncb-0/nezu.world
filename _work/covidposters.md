@@ -1,5 +1,5 @@
 ---
-title: "Eva's Print Shop Internship"
+title: "Eva’s Print Shop Internship"
 short: "covid posters"
 name: "eva's internship"
 tags: [design, print, for-others, 2020]

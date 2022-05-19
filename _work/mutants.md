@@ -1,5 +1,5 @@
 ---
-title: "Mutants Mixtape Vol. 6: \"Home\""
+title: "Mutants Mixtape Vol. 6: “Home”"
 short: "mutants mixtape 6"
 name: "mutants mixtape 6"
 tags: [digital, design, art, music, album-art, for-others, 2021]

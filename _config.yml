@@ -13,7 +13,7 @@ kramdown:
      input: GFM
      auto_ids: true
      hard_wrap: false
-     smart_quotes: ["apos", "apos", "quot", "quot"]
+    #  smart_quotes: ["apos", "apos", "quot", "quot"]
      typographic_symbols: {hellip: ...}
 
 defaults:

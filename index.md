@@ -43,7 +43,7 @@ tag: wip
           {% if forloop.last == true %}
             & <a class="clean underline" href="{{ item.url }}">{{ item.short }}</a>.
           {% else %}
-            <a class="clean underline" href="{{ item.url }}">{{ item.short }}</a>,
+            <a class="clean underline" href="{{ item.url }}">{{ item.short }}</a>, 
           {% endif %}
       {% endfor %}
     </h1>

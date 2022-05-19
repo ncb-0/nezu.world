@@ -8,6 +8,7 @@ $acc: #d20;
 $sans: "Helvetica", Arial, sans-serif;
 // $serif: "TimesSquashed", Times, serif;
 $mono: "HelveticaMono", Menlo, Consolas, monospace;
+// $mono: Monaco, Menlo, monospace;
 
 $tm-mega: "Mega", sans-serif;
 $tm-pico-a: "PicoA", sans-serif;
@@ -277,10 +278,12 @@ a:hover {
 }
 
 a::before {
+  // opacity: 0.4;
   content: "{";
 }
 
 a::after {
+  // opacity: 0.4;
   content: "}";
 }
 
