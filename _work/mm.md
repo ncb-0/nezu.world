@@ -1,7 +1,7 @@
 ---
 title: "MM"
 short: "mm"
-name: "manga"
+name: "mm"
 tags: [manga, art, writing, print, personal, 2017, 2022, wip]
 year: 2022
 date: 2017-02-12
