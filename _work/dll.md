@@ -7,15 +7,11 @@ year: 2022
 date: 2022-07-05
 ---
 
-A short yuri visual novel — my entry for the [2022 VN Cup](http://visualnovel.neocities.org).
+"i die a lovely life" / "DLL" is a short yuri visual novel I created in roughly 2 weeks for the [2022 VN Cup](http://visualnovel.neocities.org). It won bronze. So maybe you should [download it here](http://nezita.itch.io/dll)?
 
-Summary:
+### summary
 
-> two girls in a long distance relationship are aching to meet, but money is tight
-> 
-> but maybe there is another way to pay
-
-[Download on itch.io for Win/Mac/Linux](http://nezita.itch.io/dll)
+Long distance girlfriends Uni and Nuña are aching to meet, but neither of them can afford the plane tickets. Willing to do anything for money, Uni participates in a research study to have her brain uploaded into a computer... irreversibly?! Oops. But we can still hook up though, right? 😗
 
 ### screenshots
 
