@@ -1,10 +1,12 @@
 ---
 title: "Eva’s Print Shop Internship"
-short: "covid posters"
-name: "eva's internship"
+short: "eva’s internship"
+name: "eva’s internship"
 tags: [design, print, for-others, 2020]
 year: 2020
 date: 2020-08-01
+# cover: evas-shop.jpg
+cover: evas-covid-en.png
 ---
 
 <figure>

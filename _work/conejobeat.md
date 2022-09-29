@@ -5,6 +5,7 @@ name: "conejobeat"
 tags: [net, collective, second-life, event, dj, music, with-others, 2020, 2021, ongoing]
 year: 2020–
 date: 2021-12-11
+cover: wafa-nezu-holy.png
 ---
 
 <figure class="float right">

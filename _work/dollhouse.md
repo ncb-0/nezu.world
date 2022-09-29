@@ -5,6 +5,7 @@ name: "dollhouse"
 tags: [irl, digital, design, art, music, dj, for-others, 2022, ongoing]
 year: 2022
 date: 2022-03-26
+cover: dollhouse-flyer.png
 ---
 
 <figure>

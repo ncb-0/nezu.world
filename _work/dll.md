@@ -1,10 +1,12 @@
 ---
 title: "i die a lovely life"
-short: "i die a lovely life"
+short: "dll (vn cup)"
 name: "dll"
 tags: [vn, art, writing, music, digital, for-others, 2022]
 year: 2022
 date: 2022-07-05
+# cover: dll-window.png
+cover: dll-uni.png
 ---
 
 "i die a lovely life" / "DLL" is a short yuri visual novel I created in roughly 2 weeks for the [2022 VN Cup](http://visualnovel.neocities.org). It won bronze. So maybe you should [download it here](http://nezita.itch.io/dll)?

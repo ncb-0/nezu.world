@@ -1,10 +1,11 @@
 ---
 title: "Portfolio Day #9"
-short: "pd9"
+short: "portfolio day 9"
 name: "portfolio day 9"
 tags: [irl, school, event, design, art, print, personal, with-others, for-others, 2018]
 year: 2018
 date: 2018-11-02
+cover: pd9-a2.png
 ---
 
 <figure>

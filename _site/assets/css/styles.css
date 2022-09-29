@@ -40,7 +40,7 @@ body { width: 100vw; color: #7C3E52; font-size: 14px; overflow-x: hidden; z-inde
 
 #content { background: #fff; max-width: 854px; margin: 0 auto; padding: 3em 6px; }
 
-#alltags { position: absolute; bottom: 1em; max-width: 854px; }
+#alltags { position: relative; margin: 2em 0 0; max-width: 854px; }
 
 #navcontainer { top: 0; position: fixed; width: 100vw; z-index: 100; }
 
@@ -112,17 +112,25 @@ figure.float { max-width: 40%; }
 
 h1 + figure, h2 + figure, h3 + figure, figure.float { margin-top: 0; }
 
-.img2, .img2m { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 4px; justify-content: center; margin-bottom: 2px; }
+.img2, .img2m { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 6px; justify-content: center; margin-bottom: 4px; }
 
-.img2f { display: flex; flex-direction: row; margin-bottom: 2px; width: 100%; }
+.img2f { display: flex; flex-direction: row; margin-bottom: 4px; width: 100%; }
 
 .img2f div { display: block; max-width: 100%; margin-right: 4px; }
 
 .img2f div:last-of-type { margin-right: 0; }
 
-.img3, .img3m { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 4px; justify-content: center; margin-bottom: 2px; }
+.img3, .img3m { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 6px; justify-content: center; margin-bottom: 4px; }
 
-.img4, .img4m { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 4px; justify-content: center; margin-bottom: 2px; }
+.img4, .img4m { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 6px; justify-content: center; margin-bottom: 4px; }
+
+.portfolio-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-gap: 6px; justify-content: center; margin-bottom: 4px; }
+
+.portfolio-img { background-color: none; background-position: top center; background-size: cover; background-repeat: no-repeat; }
+
+.portfolio-img::before { float: left; padding-top: 100%; content: ""; }
+
+.portfolio-img::after { display: block; content: ""; clear: both; }
 
 hr { border: 0; margin: 0 0 2em; clear: both; }
 
@@ -190,9 +198,7 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; heig
 
 @media (max-width: 1070px) { body { background: #fff; } #garden { display: none; } }
 
-@media (max-width: 600px) { * { clear: both; float: none; } .img2, .img3, .img4 { display: grid; grid-template-columns: 1fr; margin-bottom: 4px; } .img4m { grid-template-columns: 1fr 1fr; margin-bottom: 4px; } figure.float { width: 100%; max-width: 100%; margin-left: 0; margin-right: 0; } }
-
-@media (max-height: 700px) { #alltags { position: relative; margin: 4em 0 0; max-width: 854px; } }
+@media (max-width: 600px) { .img2, .img3, .img4 { display: grid; grid-template-columns: 1fr; margin-bottom: 4px; } .img4m { grid-template-columns: 1fr 1fr; margin-bottom: 4px; } .portfolio-grid { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 6px; justify-content: center; margin-bottom: 4px; } figure.float { float: none; width: 100%; max-width: 100%; margin-left: 0; margin-right: 0; } }
 
 @font-face { font-family: "HelveticaMono"; src: url("/assets/fonts/HelveticaMono/HelveticaMono.woff2") format("woff2"), url("/assets/fonts/HelveticaMono/HelveticaMono.woff") format("woff"), url("/assets/fonts/HelveticaMono/HelveticaMono.ttf") format("truetype"); font-weight: 400; }
 

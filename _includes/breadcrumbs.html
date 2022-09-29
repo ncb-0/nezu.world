@@ -2,6 +2,9 @@
   <h6>
     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
       <a href="/">nezu.world</a>
+      {% if page.title == 'home' %}
+        <p>the website of <a href="/about.html">{mel m.}</a></p>
+      {% endif %}
       {% for crumb in crumbs offset: 1 %}
         {% if forloop.last %}
           {% if page.year %}

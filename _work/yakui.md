@@ -5,6 +5,8 @@ name: "yakui — imni"
 tags: [digital, design, art, music, album-art, for-others, 2019]
 year: 2019
 date: 2019-08-02
+# cover: yakuicd1.jpg
+cover: imni.jpg
 ---
 Album artwork for [Imni by Yakui.](http://eatdis.bandcamp.com/album/imni)
 

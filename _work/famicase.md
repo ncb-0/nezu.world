@@ -5,6 +5,8 @@ name: "famicase 2020"
 tags: [irl, event, art, design, print, for-others, 2020]
 year: 2020
 date: 2020-06-01
+# cover: famicase-mockup.png
+cover: ming.jpg
 ---
 
 <figure>

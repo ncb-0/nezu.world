@@ -24,18 +24,28 @@ tag: wip
 {% endfor %}
 
 <div>
-  <!-- <h5>Work</h5>
-  <ul>
-    {% assign sorted = site.work | sort: "date" | reverse %}
-    {% for item in sorted %}
-      <li>
-        <a href="{{ item.url }}">{{ item.title }}</a>
-      </li>
-    {% endfor %}
-  </ul> -->
-  <!-- <p>cutest fake dj & mangaka ever, first robot girl to pass the turing test (chibi world records)</p> -->
-  <!-- <p><a href="{{ site.baseurl }}/about.html" class="clean">mel m.</a>, wholly or partially irresponsible for:</p> -->
   <div style="margin-bottom: 2em">
+    <h1 style="margin-bottom: 0">
+      <!-- <a class="clean underline" href="/about.html">mel</a> is irresponsible for: <br> -->
+      work.
+    </h1>
+    <div class="portfolio-grid">
+      {% assign sorted = site.work | sort: "date" | reverse %}
+      {% for item in sorted %}
+        <div class="portfolio-item">
+          <a class="clean underline" href="{{ item.url }}">
+            <div class="portfolio-img"
+                style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item.cover }}')">
+            </div>
+            <h5 style="text-align:left">{{ item.short }}</h5>
+            <!-- <p><a class="clean underline" href="{{ item.url }}">{{ item.short }}</a></p> -->
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- <div style="margin-bottom: 2em">
     <h1>
       <a class="clean underline" href="/about.html">mel m.</a> is irresponsible for: <br>
       {% assign sorted = site.work | sort: "date" | reverse %}
@@ -47,30 +57,39 @@ tag: wip
           {% endif %}
       {% endfor %}
     </h1>
-    <!-- <h3>*partially or wholly</h3> -->
-  </div>
+  </div> -->
 
+  <!-- art gallery -->
   <div style="margin-bottom: 2em">
-    <h2>
-      gallery:
-      {% assign sorted = site.art | sort: "short" | reverse %}
+    <h1 style="margin-bottom: 0">
+      art.
+    </h1>
+    <div class="portfolio-grid">
+      {% assign sorted = site.art | sort: "date" | reverse %}
       {% for item in sorted %}
-          {% if forloop.last == true %}
-            <a class="clean underline" href="{{ item.url }}">{{ item.short }}</a>.
-          {% else %}
-            <a class="clean underline" href="{{ item.url }}">{{ item.short }}</a>,
-          {% endif %}
+        <div class="portfolio-item">
+          <a class="clean underline" href="{{ item.url }}">
+            <div class="portfolio-img"
+                style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item.cover }}')">
+            </div>
+            <h5 style="text-align:left">{{ item.short }}</h5>
+            <!-- <p><a class="clean underline" href="{{ item.url }}">{{ item.short }}</a></p> -->
+          </a>
+        </div>
       {% endfor %}
-    </h2>
-    <!-- <h3>*partially or wholly</h3> -->
+    </div>
   </div>
 
+  <h2><a class="clean underline" href="/about.html">who?</a></h2>
+
+  <!-- social -->
   <div>
     <h3>
       elsewhere: <a target="_blank" class="clean" href="http://twitter.com/ncb0_">twitter</a>, <a target="_blank" class="clean" href="https://www.pixiv.net/en/users/63526507">pixiv</a>, <a target="_blank" class="clean" href="https://www.inprnt.com/profile/nezu/">inprnt</a>, <a target="_blank" class="clean" href="http://ko-fi.com/nezita">ko-fi</a>, <a target="_blank" class="clean" href="http://conejobeat.com">conejobeat.com</a>.
     </h3>
   </div>
 
+  <!-- contact -->
   <div>
     <h3>forward complaints: <a class="clean" href="mailto:mel@nezu.world">mel@nezu.world</a>, <a class="clean" href="http://discord.com/users/272803229274996737">nezu#8000</a>.</h3>
     <!-- <ul class="links">
@@ -79,7 +98,7 @@ tag: wip
     </ul> -->
   </div>
 
-  <!-- <h5>Tags</h5> -->
+  <!-- tags -->
   <div id="alltags">
     <h6>
       {% assign taglist = rawtags | uniq %}
