@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-      <title>nezu.world | art from 2020</title>
+      <title>nezu.world / art from 2020</title>
     
     <link rel="stylesheet" href="/assets/css/styles.css?v=4">
     <!-- icons -->
@@ -26,12 +26,14 @@
     <meta name="format-detection" content="telephone=no">
     <style>
       a[href*="//"]:not([href*=""])::before {
-        content: "<";
+        font-style: normal;
+        content: "[";
       }
       a[href*="//"]:not([href*=""])::after {
-        content: ">";
+        font-style: normal;
+        content: "]↗";
       }
-      a.banner::before, a.banner::after {
+      before, a.banner::after {
         content: none;
       }
     </style>
@@ -52,16 +54,16 @@
         <div id="breadcrumbs">
   <h6>
     
-      <a href="/">nezu.world</a>
+      <a class="clean" href="/">nezu.world</a>
       
       
         
-          > art
+          / art
         
       
         
           
-            > 2020  
+            / 2020  
           
           
           
@@ -83,7 +85,7 @@
 <p>May 2020, Clip Studio Paint.</p>
 
 <figure>
-  <img src="/assets/art/2020/redsky.png" />
+  <img src="/assets/art/2020/redsky.jpg" />
 </figure>
 
 <h3 id="birth-nsfw">“birth” (nsfw?)</h3>
@@ -91,7 +93,7 @@
 <p>July 2020, Clip Studio Paint.</p>
 
 <figure>
-  <img src="/assets/art/2020/birth.png" />
+  <img src="/assets/art/2020/birth.jpg" />
 </figure>
 
 <h3 id="untitled-neko-nsfw">untitled neko (nsfw)</h3>
@@ -99,7 +101,7 @@
 <p>April 2020, Clip Studio Paint.</p>
 
 <figure>
-  <img src="/assets/art/2020/slimey.png" />
+  <img src="/assets/art/2020/slimey.jpg" />
 </figure>
 
 <h3 id="untitled-mermaid">untitled mermaid</h3>
@@ -107,7 +109,7 @@
 <p>May 2020, Clip Studio Paint.</p>
 
 <figure>
-  <img src="/assets/art/2020/mermaid.png" />
+  <img src="/assets/art/2020/mermaid.jpg" />
 </figure>
 
 <h3 id="yellow-sky">“yellow sky”</h3>
@@ -115,7 +117,7 @@
 <p>July 2020, Clip Studio Paint.</p>
 
 <figure>
-  <img src="/assets/art/2020/landscape.png" />
+  <img src="/assets/art/2020/landscape.jpg" />
 </figure>
 
 <h3 id="untitled-lamimala">untitled lamimala</h3>
@@ -133,10 +135,10 @@
 <figure>
   <div class="img2f">
     <div style="flex:0.7307692308;">
-      <img src="/assets/art/2020/pearfairy.png" />
+      <img src="/assets/art/2020/pearfairy.jpg" />
     </div>
     <div style="flex:0.8;">
-      <img src="/assets/art/2020/wfairy.png" />
+      <img src="/assets/art/2020/wfairy.jpg" />
     </div>
   </div>
 </figure>
@@ -157,7 +159,7 @@
 January 2020, Clip Studio Paint.
 
 <figure>
-  <img src="/assets/art/2020/xboxneko.png">
+  <img src="/assets/art/2020/xboxneko.jpg">
 </figure> -->
 
 <!-- ### untitled neko ii
@@ -165,7 +167,7 @@ January 2020, Clip Studio Paint.
 October 2020, Clip Studio Paint.
 
 <figure>
-  <img src="/assets/art/2020/yellowneko.png">
+  <img src="/assets/art/2020/yellowneko.jpg">
 </figure> -->
 
 <hr />
@@ -234,7 +236,7 @@ October 2020, Clip Studio Paint.
         .forEach(function(heading) {
           if (heading.id) {
             heading.innerHTML =
-              '<a href="#' + heading.id + '" class="clean underline">' + heading.innerText + '<\/a>';
+              '<a href="#' + heading.id + '" class="clean">' + heading.innerText + '<\/a>';
           }
         });
     </script>

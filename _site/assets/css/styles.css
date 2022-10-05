@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @use "sass.color";
 .w100 { font-weight: 100; }
 
@@ -32,7 +31,7 @@
 
 *::-webkit-scrollbar { display: none; }
 
-body { width: 100vw; color: #7C3E52; font-size: 14px; overflow-x: hidden; z-index: 10; min-height: 100vh; background: url(/assets/svg/flowers2.svg) top 100vh left 1em/96px repeat-y, url(/assets/svg/flowers2.svg) top 100vh right 1em/96px repeat-y; }
+body { width: 100vw; color: #7C3E52; font-size: 14px; overflow-x: hidden; z-index: 10; min-height: 100vh; background: url(/assets/svg/flowers2.svg) top 100vh left 1em/96px repeat-y, url(/assets/svg/flowers2.svg) top 100vh right 1em/96px repeat-y, #fff; }
 
 #garden { overflow: hidden; height: 100%; }
 
@@ -64,27 +63,27 @@ h3 { font: 700 1.75em/1 "Helvetica", Arial, sans-serif; letter-spacing: -0.5px; 
 
 h4 { font: 700 1.25em/1 "Helvetica", Arial, sans-serif; }
 
-p, li, h5, hr::before { font: 1em/1.3 "HelveticaMono", Menlo, Consolas, monospace; }
+p, li, h5, hr::before { font: 1em/1.3 "FragmentMono", Menlo, Consolas, monospace; }
 
-h6, figcaption { font: 0.75em/1.2 "HelveticaMono", Menlo, Consolas, monospace; }
+h6, figcaption { font: 0.75em/1.2 "FragmentMono", Menlo, Consolas, monospace; }
 
-ul { list-style-type: "— "; margin-left: 1.2em; }
+ul { list-style-type: "* "; margin-left: 1.25em; }
 
 p, li:last-of-type { margin-bottom: .5em; }
 
-a { text-decoration: none; color: #7C3E52; }
+a { text-decoration: none; color: #7C3E52; font-style: italic; }
 
 a:hover { color: #fff; background: #7c3e52; }
 
-a::before { content: "{"; }
+a::before { font-style: normal; content: "["; }
 
-a::after { content: "}"; }
+a::after { font-style: normal; content: "]"; }
 
 a.tag::before { content: "#"; }
 
 a.tag::after { content: none; }
 
-a.underline { color: #7C3E52; background: none; }
+a.underline { color: #7C3E52; background: none; font-style: normal; }
 
 a.underline:hover { color: #7C3E52; background: none; text-decoration: underline; }
 
@@ -92,7 +91,11 @@ a.clean::before { content: none !important; }
 
 a.clean::after { content: none !important; }
 
-blockquote { padding-left: calc(1.98em - 4px); border-left: 4px solid #7C3E52; }
+a.clean, a.tag { font-style: normal; color: #7C3E52; }
+
+a.clean:hover, a.tag:hover { color: #fff; background: #7c3e52; }
+
+blockquote { padding-left: calc(1.87em - 4px); border-left: 4px solid #7C3E52; }
 
 h1::before, h2::before, h3::before, h4::before, h5::before, h6::before { display: block; content: " "; margin-top: -2em; height: 2em; visibility: hidden; pointer-events: none; }
 
@@ -132,9 +135,7 @@ h1 + figure, h2 + figure, h3 + figure, figure.float { margin-top: 0; }
 
 .portfolio-img::after { display: block; content: ""; clear: both; }
 
-hr { border: 0; margin: 0 0 2em; clear: both; }
-
-hr::before { content: "======"; }
+hr { border: 1px dashed rgba(124, 62, 82, 0.2); margin: 1em 0; clear: both; }
 
 .banner { width: 200px; height: 40px; border: none; background: none; margin-bottom: 2em; }
 
@@ -164,7 +165,7 @@ a.plain::before, a.plain::after { content: none; }
 
 [contenteditable], select { outline: 0px solid transparent; }
 
-select { -webkit-appearance: none; -moz-appearance: none; appearance: none; height: 16px; border: 0; border-radius: 5px; width: 90px; background: none !important; font: 400 14px/1.2 "HelveticaMono", Menlo, Consolas, monospace; color: #7C3E52; cursor: pointer; }
+select { -webkit-appearance: none; -moz-appearance: none; appearance: none; height: 16px; border: 0; border-radius: 5px; width: 90px; background: none !important; font: 400 14px/1.2 "FragmentMono", Menlo, Consolas, monospace; color: #7C3E52; cursor: pointer; }
 
 .slider { transform: translateY(-2px); border-radius: 2px; -webkit-appearance: none; appearance: none; width: 100%; height: 2px; background: rgba(124, 62, 82, 0.2); margin-bottom: 12px; }
 
@@ -176,7 +177,7 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; heig
 
 .slider:hover::-moz-range-thumb { cursor: pointer; border: none; outline: none; }
 
-#lightbox { width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(255, 255, 255, 0.8); z-index: 9999999; line-height: 0; cursor: pointer; display: none; font: 700 14px/1.3 "HelveticaMono", Menlo, Consolas, monospace; padding: 2em 6px; }
+#lightbox { width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(255, 255, 255, 0.8); z-index: 9999999; line-height: 0; cursor: pointer; display: none; font: 700 14px/1.3 "FragmentMono", Menlo, Consolas, monospace; padding: 2em 6px; }
 
 #lightbox .img { position: relative; top: 50%; left: 50%; -ms-transform: translateX(-50%) translateY(-50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); max-width: 100%; max-height: 100%; }
 
@@ -199,6 +200,10 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; heig
 @media (max-width: 1070px) { body { background: #fff; } #garden { display: none; } }
 
 @media (max-width: 600px) { .img2, .img3, .img4 { display: grid; grid-template-columns: 1fr; margin-bottom: 4px; } .img4m { grid-template-columns: 1fr 1fr; margin-bottom: 4px; } .portfolio-grid { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 6px; justify-content: center; margin-bottom: 4px; } figure.float { float: none; width: 100%; max-width: 100%; margin-left: 0; margin-right: 0; } }
+
+@font-face { font-family: "FragmentMono"; src: url("/assets/fonts/FragmentMono/FragmentMono-Regular.woff2") format("woff2"), url("/assets/fonts/FragmentMono/FragmentMono-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-feature-settings: "ss02"; }
+
+@font-face { font-family: "FragmentMono"; src: url("/assets/fonts/FragmentMono/FragmentMono-Italic.woff2") format("woff2"), url("/assets/fonts/FragmentMono/FragmentMono-Italic.ttf") format("truetype"); font-weight: 400; font-style: italic; font-feature-settings: "ss02"; }
 
 @font-face { font-family: "HelveticaMono"; src: url("/assets/fonts/HelveticaMono/HelveticaMono.woff2") format("woff2"), url("/assets/fonts/HelveticaMono/HelveticaMono.woff") format("woff"), url("/assets/fonts/HelveticaMono/HelveticaMono.ttf") format("truetype"); font-weight: 400; }
 

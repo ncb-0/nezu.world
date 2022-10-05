@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-      <title>nezu.world | my famicase exhibition 2020</title>
+      <title>nezu.world / my famicase exhibition 2020</title>
     
     <link rel="stylesheet" href="/assets/css/styles.css?v=4">
     <!-- icons -->
@@ -26,12 +26,14 @@
     <meta name="format-detection" content="telephone=no">
     <style>
       a[href*="//"]:not([href*=""])::before {
-        content: "<";
+        font-style: normal;
+        content: "[";
       }
       a[href*="//"]:not([href*=""])::after {
-        content: ">";
+        font-style: normal;
+        content: "]↗";
       }
-      a.banner::before, a.banner::after {
+      before, a.banner::after {
         content: none;
       }
     </style>
@@ -52,35 +54,35 @@
         <div id="breadcrumbs">
   <h6>
     
-      <a href="/">nezu.world</a>
+      <a class="clean" href="/">nezu.world</a>
       
       
         
-          > work
+          / work
         
       
         
           
-            > 2020  
+            / 2020  
           
           
-            > famicase 2020 <br>
+            / famicase 2020 <br>
           
           
           
-            <a href="/tag/irl.html">#irl</a>
+            <a class="clean" href="/tag/irl.html">#irl</a>
           
-            <a href="/tag/event.html">#event</a>
+            <a class="clean" href="/tag/event.html">#event</a>
           
-            <a href="/tag/art.html">#art</a>
+            <a class="clean" href="/tag/art.html">#art</a>
           
-            <a href="/tag/design.html">#design</a>
+            <a class="clean" href="/tag/design.html">#design</a>
           
-            <a href="/tag/print.html">#print</a>
+            <a class="clean" href="/tag/print.html">#print</a>
           
-            <a href="/tag/for-others.html">#for-others</a>
+            <a class="clean" href="/tag/for-others.html">#for-others</a>
           
-            <a href="/tag/2020.html">#2020</a>
+            <a class="clean" href="/tag/2020.html">#2020</a>
           
         
       
@@ -136,7 +138,7 @@
         .forEach(function(heading) {
           if (heading.id) {
             heading.innerHTML =
-              '<a href="#' + heading.id + '" class="clean underline">' + heading.innerText + '<\/a>';
+              '<a href="#' + heading.id + '" class="clean">' + heading.innerText + '<\/a>';
           }
         });
     </script>

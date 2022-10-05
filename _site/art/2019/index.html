@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-      <title>nezu.world | art from 2019</title>
+      <title>nezu.world / art from 2019</title>
     
     <link rel="stylesheet" href="/assets/css/styles.css?v=4">
     <!-- icons -->
@@ -26,12 +26,14 @@
     <meta name="format-detection" content="telephone=no">
     <style>
       a[href*="//"]:not([href*=""])::before {
-        content: "<";
+        font-style: normal;
+        content: "[";
       }
       a[href*="//"]:not([href*=""])::after {
-        content: ">";
+        font-style: normal;
+        content: "]↗";
       }
-      a.banner::before, a.banner::after {
+      before, a.banner::after {
         content: none;
       }
     </style>
@@ -52,16 +54,16 @@
         <div id="breadcrumbs">
   <h6>
     
-      <a href="/">nezu.world</a>
+      <a class="clean" href="/">nezu.world</a>
       
       
         
-          > art
+          / art
         
       
         
           
-            > 2019  
+            / 2019  
           
           
           
@@ -83,7 +85,7 @@
 <p>2019 (month unknown), chalk pastel on paper.</p>
 
 <figure>
-  <img src="/assets/art/2019/hathor.png" />
+  <img src="/assets/art/2019/hathor.jpg" />
 </figure>
 
 <h3 id="bugs-party">“bugs party”</h3>
@@ -91,7 +93,7 @@
 <p>January 2019, chalk pastel on paper.</p>
 
 <figure>
-  <img src="/assets/art/2019/bugs-party.png" />
+  <img src="/assets/art/2019/bugs-party.jpg" />
 </figure>
 
 <h3 id="untitled-waterfairy-gift">untitled waterfairy (gift)</h3>
@@ -99,7 +101,7 @@
 <p>October 2019, Clip Studio Paint for Mac. Birthday gift for <a href="http://yogurt200.com">Sofa</a>.</p>
 
 <figure>
-  <img src="/assets/art/2019/sofa.png" />
+  <img src="/assets/art/2019/sofa.jpg" />
 </figure>
 
 <h3 id="untitled-mew-ichigo-commission">untitled mew ichigo (commission)</h3>
@@ -195,21 +197,21 @@
 <p>Late 2019, Affinity Photo &amp; Designer.</p>
 
 <figure>
-  <img src="/assets/art/2019/sb.jpg" />
+  <img src="/assets/art/2019/sb2.jpg" />
 </figure>
 
 <h2 id="assorted-drawings" style="margin-bottom:0.5em">assorted drawings</h2>
 
 <figure>
-  <img src="/assets/art/2019/mmpanel2019-2.png" />
+  <img src="/assets/art/2019/mmpanel2019-2.jpg" />
 </figure>
 
 <figure>
-  <img src="/assets/art/2019/mmpanel2019-1.png" />
+  <img src="/assets/art/2019/mmpanel2019-1.jpg" />
 </figure>
 
 <figure>
-  <img src="/assets/art/2019/loveys.png" />
+  <img src="/assets/art/2019/loveys.jpg" />
 </figure>
 
 <figure>
@@ -218,7 +220,7 @@
       <img src="/assets/art/2019/yangpira.jpg" />
     </div>
     <div style="flex:1.3008684864;">
-      <img src="/assets/art/2019/robotys.png" />
+      <img src="/assets/art/2019/robotys.jpg" />
     </div>
   </div>
 </figure>
@@ -229,7 +231,7 @@
       <img src="/assets/art/2019/ping.jpg" />
     </div>
     <div style="flex:1.1977671451;">
-      <img src="/assets/art/2019/yiyi-prototype2.png" />
+      <img src="/assets/art/2019/yiyi-prototype2.jpg" />
     </div>
   </div>
 </figure>
@@ -237,10 +239,10 @@
 <figure>
   <div class="img2f">
     <div style="flex:0.7952822241;">
-      <img src="/assets/art/2019/nudeyang2.png" />
+      <img src="/assets/art/2019/nudeyang2.jpg" />
     </div>
     <div style="flex:0.8536762043;">
-      <img src="/assets/art/2019/neko2.png" />
+      <img src="/assets/art/2019/neko2.jpg" />
     </div>
   </div>
 </figure>
@@ -251,7 +253,7 @@
       <img src="/assets/art/2019/blot.jpg" />
     </div>
     <div style="flex:1.9586410635;">
-      <img src="/assets/art/2019/piras.png" />
+      <img src="/assets/art/2019/piras.jpg" />
     </div>
   </div>
 </figure>
@@ -259,13 +261,13 @@
 <figure>
   <div class="img2f">
     <div style="flex:1.0022075055;">
-      <img src="/assets/art/2019/itspornifyoulookreallyclose.png" />
+      <img src="/assets/art/2019/itspornifyoulookreallyclose.jpg" />
     </div>
     <div style="flex:1.0214511041;">
-      <img src="/assets/art/2019/itspornifyoulookreallyclose2.png" />
+      <img src="/assets/art/2019/itspornifyoulookreallyclose2.jpg" />
     </div>
     <div style="flex:1.2933425798;">
-      <img src="/assets/art/2019/itspornifyoulookreallyclose3.png" />
+      <img src="/assets/art/2019/itspornifyoulookreallyclose3.jpg" />
     </div>
   </div>
 </figure>
@@ -280,7 +282,7 @@
         .forEach(function(heading) {
           if (heading.id) {
             heading.innerHTML =
-              '<a href="#' + heading.id + '" class="clean underline">' + heading.innerText + '<\/a>';
+              '<a href="#' + heading.id + '" class="clean">' + heading.innerText + '<\/a>';
           }
         });
     </script>

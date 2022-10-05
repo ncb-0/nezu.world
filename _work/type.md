@@ -5,7 +5,7 @@ name: "type design"
 tags: [design, type, 2020, 2021, 2022, wip]
 year: 2020–
 date: 2020-01-25
-cover: type.png
+cover: type.jpg
 ---
 
 I design fonts! None of these are "officially" available to purchase, but if you're interested in licensing them anyway, shoot me an email: [mel@nezu.world](mailto:mel@nezu.world)

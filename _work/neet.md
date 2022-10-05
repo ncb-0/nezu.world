@@ -5,7 +5,7 @@ name: "neetgear"
 tags: [net, collective, merch, fashion, print, for-others, with-others, 2017, 2018, defunct]
 year: 2017–2018
 date: 2017-11-27
-cover: merch-degen.png
+cover: merch-degen.jpg
 ---
 
 In November 2017, I joined former online clothing brand and artist collective Neetgear. Neet collaborated with many different artists to produce T-shirts, sweaters, hats, shoes, and other products. As "frogheck" (my former alias) I designed artworks for them to print on merchandise, as well as a few promotional images for their [Twitter.](http://twitter.com/neetgear)

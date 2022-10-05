@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-      <title>nezu.world | etobicoke fashion show</title>
+      <title>nezu.world / etobicoke fashion show</title>
     
     <link rel="stylesheet" href="/assets/css/styles.css?v=4">
     <!-- icons -->
@@ -26,12 +26,14 @@
     <meta name="format-detection" content="telephone=no">
     <style>
       a[href*="//"]:not([href*=""])::before {
-        content: "<";
+        font-style: normal;
+        content: "[";
       }
       a[href*="//"]:not([href*=""])::after {
-        content: ">";
+        font-style: normal;
+        content: "]↗";
       }
-      a.banner::before, a.banner::after {
+      before, a.banner::after {
         content: none;
       }
     </style>
@@ -52,39 +54,39 @@
         <div id="breadcrumbs">
   <h6>
     
-      <a href="/">nezu.world</a>
+      <a class="clean" href="/">nezu.world</a>
       
       
         
-          > work
+          / work
         
       
         
           
-            > 2019  
+            / 2019  
           
           
-            > etobicoke fashion show <br>
+            / etobicoke fashion show <br>
           
           
           
-            <a href="/tag/irl.html">#irl</a>
+            <a class="clean" href="/tag/irl.html">#irl</a>
           
-            <a href="/tag/school.html">#school</a>
+            <a class="clean" href="/tag/school.html">#school</a>
           
-            <a href="/tag/event.html">#event</a>
+            <a class="clean" href="/tag/event.html">#event</a>
           
-            <a href="/tag/fashion.html">#fashion</a>
+            <a class="clean" href="/tag/fashion.html">#fashion</a>
           
-            <a href="/tag/design.html">#design</a>
+            <a class="clean" href="/tag/design.html">#design</a>
           
-            <a href="/tag/dj.html">#dj</a>
+            <a class="clean" href="/tag/dj.html">#dj</a>
           
-            <a href="/tag/print.html">#print</a>
+            <a class="clean" href="/tag/print.html">#print</a>
           
-            <a href="/tag/with-others.html">#with-others</a>
+            <a class="clean" href="/tag/with-others.html">#with-others</a>
           
-            <a href="/tag/2019.html">#2019</a>
+            <a class="clean" href="/tag/2019.html">#2019</a>
           
         
       
@@ -111,20 +113,20 @@
 
 <figure>
   <div class="img2">
-    <img src="/assets/img/efsposter1.png" />
-    <img src="/assets/img/efsposter2.png" />
+    <img src="/assets/img/efsposter1.jpg" />
+    <img src="/assets/img/efsposter2.jpg" />
   </div>
   <figcaption>EFS collectible posters. Tabloid size.</figcaption>
 </figure>
 
-<h2 id="crushed-2">Crushed #2</h2>
+<h2 id="crushed-2">crushed #2</h2>
 
 <p>In 2018, the EFS heads put together Crushed Magazine, showcasing photos of student designs and artworks from the show. In 2019, I designed and edited Crushed #2 — 80+ pages of student fashion photos and essays. Custom Crushed logotype is featured on the cover. Magazine is typeset in sb-studio, an early unreleased version of my sb-spec typeface.</p>
 
 <p><a href="https://drive.google.com/file/d/1U2lSzCMlywL6SeTMMo9f5bU692RCh1Es/view?usp=sharing">Download Crushed #2 PDF</a></p>
 
 <figure>
-  <img src="/assets/img/crushed2cover.png" />
+  <img src="/assets/img/crushed2cover.jpg" />
   <figcaption>Crushed #2 cover. Letter size.</figcaption>
 </figure>
 
@@ -154,7 +156,7 @@
         .forEach(function(heading) {
           if (heading.id) {
             heading.innerHTML =
-              '<a href="#' + heading.id + '" class="clean underline">' + heading.innerText + '<\/a>';
+              '<a href="#' + heading.id + '" class="clean">' + heading.innerText + '<\/a>';
           }
         });
     </script>

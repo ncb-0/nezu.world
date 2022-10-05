@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-      <title>nezu.world | mutants mixtape vol. 6: “home”</title>
+      <title>nezu.world / mutants mixtape vol. 6: “home”</title>
     
     <link rel="stylesheet" href="/assets/css/styles.css?v=4">
     <!-- icons -->
@@ -26,12 +26,14 @@
     <meta name="format-detection" content="telephone=no">
     <style>
       a[href*="//"]:not([href*=""])::before {
-        content: "<";
+        font-style: normal;
+        content: "[";
       }
       a[href*="//"]:not([href*=""])::after {
-        content: ">";
+        font-style: normal;
+        content: "]↗";
       }
-      a.banner::before, a.banner::after {
+      before, a.banner::after {
         content: none;
       }
     </style>
@@ -52,35 +54,35 @@
         <div id="breadcrumbs">
   <h6>
     
-      <a href="/">nezu.world</a>
+      <a class="clean" href="/">nezu.world</a>
       
       
         
-          > work
+          / work
         
       
         
           
-            > 2021  
+            / 2021  
           
           
-            > mutants mixtape 6 <br>
+            / mutants mixtape 6 <br>
           
           
           
-            <a href="/tag/digital.html">#digital</a>
+            <a class="clean" href="/tag/digital.html">#digital</a>
           
-            <a href="/tag/design.html">#design</a>
+            <a class="clean" href="/tag/design.html">#design</a>
           
-            <a href="/tag/art.html">#art</a>
+            <a class="clean" href="/tag/art.html">#art</a>
           
-            <a href="/tag/music.html">#music</a>
+            <a class="clean" href="/tag/music.html">#music</a>
           
-            <a href="/tag/album-art.html">#album-art</a>
+            <a class="clean" href="/tag/album-art.html">#album-art</a>
           
-            <a href="/tag/for-others.html">#for-others</a>
+            <a class="clean" href="/tag/for-others.html">#for-others</a>
           
-            <a href="/tag/2021.html">#2021</a>
+            <a class="clean" href="/tag/2021.html">#2021</a>
           
         
       
@@ -95,7 +97,7 @@
 <p>Artwork for the sixth installment of <a href="https://mutants1000000.bandcamp.com/">Mutants Mixtape</a>, an online collective curating art and music for charity. MM has featured many notable artists including Arca, Matmos, Kai Whiston, Emamouse and more. <a href="https://mutants1000000.bandcamp.com/album/mutants-vol-6-home">Buy MM6</a></p>
 
 <figure>
-  <img src="/assets/img/mm6.png" style="margin-top:0" />
+  <img src="/assets/img/mm6.jpg" style="margin-top:0" />
   <figcaption>A mutant laying her eggs...</figcaption>
 </figure>
 
@@ -123,7 +125,7 @@
         .forEach(function(heading) {
           if (heading.id) {
             heading.innerHTML =
-              '<a href="#' + heading.id + '" class="clean underline">' + heading.innerText + '<\/a>';
+              '<a href="#' + heading.id + '" class="clean">' + heading.innerText + '<\/a>';
           }
         });
     </script>

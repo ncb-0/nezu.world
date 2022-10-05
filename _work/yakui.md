@@ -1,7 +1,7 @@
 ---
 title: "Yakui—Imni"
 short: "yakui—imni"
-name: "yakui — imni"
+name: "yakui—imni"
 tags: [digital, design, art, music, album-art, for-others, 2019]
 year: 2019
 date: 2019-08-02
@@ -30,16 +30,16 @@ A vast digital space in which clouds of infinitely small points guide weightless
   </figcaption>
 </figure>
 
-* * *
+
 
 ## scrapped iterations
 
 <figure>
   <div class="img4m">
-    <img src="{{ site.baseurl }}/assets/img/imni-a1.png">
-    <img src="{{ site.baseurl }}/assets/img/imni-a2.png">
-    <img src="{{ site.baseurl }}/assets/img/imni-a3.png">
-    <img src="{{ site.baseurl }}/assets/img/imni-a4.png">
+    <img src="{{ site.baseurl }}/assets/img/imni-a1.jpg">
+    <img src="{{ site.baseurl }}/assets/img/imni-a2.jpg">
+    <img src="{{ site.baseurl }}/assets/img/imni-a3.jpg">
+    <img src="{{ site.baseurl }}/assets/img/imni-a4.jpg">
   </div>
   <figcaption>
     Iteration #1.
@@ -48,8 +48,8 @@ A vast digital space in which clouds of infinitely small points guide weightless
 
 <figure>
   <div class="img2m">
-    <img src="{{ site.baseurl }}/assets/img/imni-b1.png">
-    <img src="{{ site.baseurl }}/assets/img/imni-b2.png">
+    <img src="{{ site.baseurl }}/assets/img/imni-b1.jpg">
+    <img src="{{ site.baseurl }}/assets/img/imni-b2.jpg">
   </div>
   <figcaption>
     Iteration #2.
@@ -58,8 +58,8 @@ A vast digital space in which clouds of infinitely small points guide weightless
 
 <figure>
   <div class="img2m">
-    <img src="{{ site.baseurl }}/assets/img/imni-c1.png">
-    <img src="{{ site.baseurl }}/assets/img/imni-c2.png">
+    <img src="{{ site.baseurl }}/assets/img/imni-c1.jpg">
+    <img src="{{ site.baseurl }}/assets/img/imni-c2.jpg">
   </div>
   <figcaption>
     Iteration #3.
@@ -68,8 +68,8 @@ A vast digital space in which clouds of infinitely small points guide weightless
 
 <figure>
   <div class="img2m">
-    <img src="{{ site.baseurl }}/assets/img/imni-d1.png">
-    <img src="{{ site.baseurl }}/assets/img/imni-d2.png">
+    <img src="{{ site.baseurl }}/assets/img/imni-d1.jpg">
+    <img src="{{ site.baseurl }}/assets/img/imni-d2.jpg">
   </div>
   <figcaption>
     Iteration #4.

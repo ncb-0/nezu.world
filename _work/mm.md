@@ -2,24 +2,22 @@
 title: "MM"
 short: "mm"
 name: "mm"
-tags: [manga, art, writing, print, personal, 2017, 2022, wip]
-year: 2022
+tags: [manga, art, writing, print, personal, 2017, wip, on-hiatus]
+year: 2017-?
 date: 2017-02-12
-cover: mm-comic.png
+cover: mm-comic.jpg
 ---
 
 <!-- #### A clueless android goes to work for the very company that built her. -->
 
-An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DPI OekakiVision™. My passion project since early 2017. Coming sometime in 2022.
+An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DPI OekakiVision™. My passion project since early 2017. Coming whenever it's done.
 
 ### preview
-
-<!-- [Read chapters 1 & 2...]({{site.baseurl}}/assets/pdf/MM-preview.pdf) -->
 
 <a href="{{ site.baseurl }}/manga/mm-preview">Read chapters 1 & 2...</a>
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/img/mm5.png">
+  <img src="{{ site.baseurl }}/assets/img/mm5.jpg">
 </figure>
 
 ### premise

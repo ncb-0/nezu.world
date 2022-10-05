@@ -32,15 +32,15 @@ tag: wip
     <div class="portfolio-grid">
       {% assign sorted = site.work | sort: "date" | reverse %}
       {% for item in sorted %}
-        <div class="portfolio-item">
-          <a class="clean underline" href="{{ item.url }}">
+        <a class="clean" href="{{ item.url }}">
+          <div class="portfolio-item">
             <div class="portfolio-img"
                 style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item.cover }}')">
             </div>
             <h5 style="text-align:left">{{ item.short }}</h5>
-            <!-- <p><a class="clean underline" href="{{ item.url }}">{{ item.short }}</a></p> -->
-          </a>
-        </div>
+            <!-- <p><a class="clean" href="{{ item.url }}">{{ item.short }}</a></p> -->
+          </div>
+        </a>
       {% endfor %}
     </div>
   </div>
@@ -67,20 +67,20 @@ tag: wip
     <div class="portfolio-grid">
       {% assign sorted = site.art | sort: "date" | reverse %}
       {% for item in sorted %}
-        <div class="portfolio-item">
-          <a class="clean underline" href="{{ item.url }}">
+        <a class="clean" href="{{ item.url }}">
+          <div class="portfolio-item">
             <div class="portfolio-img"
                 style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item.cover }}')">
             </div>
             <h5 style="text-align:left">{{ item.short }}</h5>
-            <!-- <p><a class="clean underline" href="{{ item.url }}">{{ item.short }}</a></p> -->
-          </a>
-        </div>
+            <!-- <p><a class="clean" href="{{ item.url }}">{{ item.short }}</a></p> -->
+          </div>
+        </a>
       {% endfor %}
     </div>
   </div>
 
-  <h2><a class="clean underline" href="/about.html">who?</a></h2>
+  <!-- <h2><a class="clean" href="/about.html">who?</a></h2> -->
 
   <!-- social -->
   <div>

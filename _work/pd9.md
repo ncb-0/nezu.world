@@ -1,11 +1,11 @@
 ---
 title: "Portfolio Day #9"
-short: "portfolio day 9"
-name: "portfolio day 9"
+short: "portfolio day #9"
+name: "portfolio day #9"
 tags: [irl, school, event, design, art, print, personal, with-others, for-others, 2018]
 year: 2018
 date: 2018-11-02
-cover: pd9-a2.png
+cover: pd9-a2.jpg
 ---
 
 <figure>
@@ -14,7 +14,7 @@ cover: pd9-a2.png
 </figure>
 
 <figure class="float right">
-  <img src="{{ site.baseurl }}/assets/img/pd9-a2.png">
+  <img src="{{ site.baseurl }}/assets/img/pd9-a2.jpg">
   <figcaption>PD9 promotional poster. A2 size.</figcaption>
 </figure>
 

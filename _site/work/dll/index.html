@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-      <title>nezu.world | i die a lovely life</title>
+      <title>nezu.world / i die a lovely life</title>
     
     <link rel="stylesheet" href="/assets/css/styles.css?v=4">
     <!-- icons -->
@@ -26,12 +26,14 @@
     <meta name="format-detection" content="telephone=no">
     <style>
       a[href*="//"]:not([href*=""])::before {
-        content: "<";
+        font-style: normal;
+        content: "[";
       }
       a[href*="//"]:not([href*=""])::after {
-        content: ">";
+        font-style: normal;
+        content: "]↗";
       }
-      a.banner::before, a.banner::after {
+      before, a.banner::after {
         content: none;
       }
     </style>
@@ -52,35 +54,35 @@
         <div id="breadcrumbs">
   <h6>
     
-      <a href="/">nezu.world</a>
+      <a class="clean" href="/">nezu.world</a>
       
       
         
-          > work
+          / work
         
       
         
           
-            > 2022  
+            / 2022  
           
           
-            > dll <br>
+            / dll <br>
           
           
           
-            <a href="/tag/vn.html">#vn</a>
+            <a class="clean" href="/tag/vn.html">#vn</a>
           
-            <a href="/tag/art.html">#art</a>
+            <a class="clean" href="/tag/art.html">#art</a>
           
-            <a href="/tag/writing.html">#writing</a>
+            <a class="clean" href="/tag/writing.html">#writing</a>
           
-            <a href="/tag/music.html">#music</a>
+            <a class="clean" href="/tag/music.html">#music</a>
           
-            <a href="/tag/digital.html">#digital</a>
+            <a class="clean" href="/tag/digital.html">#digital</a>
           
-            <a href="/tag/for-others.html">#for-others</a>
+            <a class="clean" href="/tag/for-others.html">#for-others</a>
           
-            <a href="/tag/2022.html">#2022</a>
+            <a class="clean" href="/tag/2022.html">#2022</a>
           
         
       
@@ -102,10 +104,10 @@
 
 <figure>
   <div class="img2">
-    <img src="/assets/img/dll-1.png" />
-    <img src="/assets/img/dll-2.png" />
-    <img src="/assets/img/dll-3.png" />
-    <img src="/assets/img/dll-4.png" />
+    <img src="/assets/img/dll-1.jpg" />
+    <img src="/assets/img/dll-2.jpg" />
+    <img src="/assets/img/dll-3.jpg" />
+    <img src="/assets/img/dll-4.jpg" />
   </div>
 </figure>
 
@@ -143,7 +145,7 @@
         .forEach(function(heading) {
           if (heading.id) {
             heading.innerHTML =
-              '<a href="#' + heading.id + '" class="clean underline">' + heading.innerText + '<\/a>';
+              '<a href="#' + heading.id + '" class="clean">' + heading.innerText + '<\/a>';
           }
         });
     </script>

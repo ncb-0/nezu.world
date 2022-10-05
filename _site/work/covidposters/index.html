@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-      <title>nezu.world | eva’s print shop internship</title>
+      <title>nezu.world / eva’s print shop internship</title>
     
     <link rel="stylesheet" href="/assets/css/styles.css?v=4">
     <!-- icons -->
@@ -26,12 +26,14 @@
     <meta name="format-detection" content="telephone=no">
     <style>
       a[href*="//"]:not([href*=""])::before {
-        content: "<";
+        font-style: normal;
+        content: "[";
       }
       a[href*="//"]:not([href*=""])::after {
-        content: ">";
+        font-style: normal;
+        content: "]↗";
       }
-      a.banner::before, a.banner::after {
+      before, a.banner::after {
         content: none;
       }
     </style>
@@ -52,29 +54,29 @@
         <div id="breadcrumbs">
   <h6>
     
-      <a href="/">nezu.world</a>
+      <a class="clean" href="/">nezu.world</a>
       
       
         
-          > work
+          / work
         
       
         
           
-            > 2020  
+            / 2020  
           
           
-            > eva’s internship <br>
+            / eva’s internship <br>
           
           
           
-            <a href="/tag/design.html">#design</a>
+            <a class="clean" href="/tag/design.html">#design</a>
           
-            <a href="/tag/print.html">#print</a>
+            <a class="clean" href="/tag/print.html">#print</a>
           
-            <a href="/tag/for-others.html">#for-others</a>
+            <a class="clean" href="/tag/for-others.html">#for-others</a>
           
-            <a href="/tag/2020.html">#2020</a>
+            <a class="clean" href="/tag/2020.html">#2020</a>
           
         
       
@@ -97,7 +99,7 @@
 
 <hr />
 
-<h2 id="covid-posters">COVID posters</h2>
+<h2 id="covid-posters">covid posters</h2>
 
 <p>My biggest task was designing a set of multilingual COVID safety posters, to be sold by the print shop to businesses. At the time, I thought to myself:</p>
 
@@ -111,8 +113,8 @@
 
 <figure>
   <div class="img2m">
-    <img src="/assets/img/evas-covid-en.png" />
-    <img src="/assets/img/evas-covid-fr.png" />
+    <img src="/assets/img/evas-covid-en.jpg" />
+    <img src="/assets/img/evas-covid-fr.jpg" />
   </div>
   <figcaption>Zoom in real close!</figcaption>
 </figure>
@@ -122,32 +124,28 @@
 <p>The screening posters were the culmination of the style I began developing with the signs below:</p>
 
 <figure>
-  <img src="/assets/img/evas-mask.png" />
+  <img src="/assets/img/evas-mask.jpg" />
   <figcaption>The first sign I made. Hadn't maxxed out the glam just yet.</figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/img/evas-seating.png" />
+  <img src="/assets/img/evas-seating.jpg" />
   <figcaption>The second. The blocky style really started taking shape here.</figcaption>
 </figure>
 
-<hr />
-
-<h2 id="overdose-safety-informational-postcards-unofficial">Overdose safety informational postcards (unofficial)</h2>
+<h2 id="overdose-safety-informational-postcards-unofficial">overdose safety informational postcards (unofficial)</h2>
 
 <p>Just to flex — all type on this is set in a font I designed myself, and the syringe needle on the front leads perfectly into the bullet point on the back — if you were to somehow unfold a single sheet of card...</p>
 
 <figure>
   <div class="img2">
-    <img src="/assets/img/evas-overdose-front.png" />
-    <img src="/assets/img/evas-overdose-back.png" />
+    <img src="/assets/img/evas-overdose-front.jpg" />
+    <img src="/assets/img/evas-overdose-back.jpg" />
   </div>
   <!-- <figcaption>So stock image looking, I know...</figcaption> -->
 </figure>
 
-<hr />
-
-<h2 id="pins">Pins</h2>
+<h2 id="pins">pins</h2>
 
 <figure style="margin-top:.5em">
   <div class="img2m">
@@ -180,7 +178,7 @@
         .forEach(function(heading) {
           if (heading.id) {
             heading.innerHTML =
-              '<a href="#' + heading.id + '" class="clean underline">' + heading.innerText + '<\/a>';
+              '<a href="#' + heading.id + '" class="clean">' + heading.innerText + '<\/a>';
           }
         });
     </script>

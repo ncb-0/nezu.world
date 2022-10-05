@@ -6,7 +6,7 @@ tags: [design, print, for-others, 2020]
 year: 2020
 date: 2020-08-01
 # cover: evas-shop.jpg
-cover: evas-covid-en.png
+cover: evas-covid-en.jpg
 ---
 
 <figure>
@@ -20,7 +20,7 @@ In summer 2020, I interned at [Eva's Print Shop](https://www.evas.ca/what-we-do/
 
 * * *
 
-## COVID posters
+## covid posters
 
 My biggest task was designing a set of multilingual COVID safety posters, to be sold by the print shop to businesses. At the time, I thought to myself:
 
@@ -32,8 +32,8 @@ These screening posters are my personal favourite:
 
 <figure>
   <div class="img2m">
-    <img src="{{ site.baseurl }}/assets/img/evas-covid-en.png">
-    <img src="{{ site.baseurl }}/assets/img/evas-covid-fr.png">
+    <img src="{{ site.baseurl }}/assets/img/evas-covid-en.jpg">
+    <img src="{{ site.baseurl }}/assets/img/evas-covid-fr.jpg">
   </div>
   <figcaption>Zoom in real close!</figcaption>
 </figure>
@@ -43,32 +43,32 @@ For the overall style and layout, I had [The Designers Republic](https://www.the
 The screening posters were the culmination of the style I began developing with the signs below:
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/img/evas-mask.png">
+  <img src="{{ site.baseurl }}/assets/img/evas-mask.jpg">
   <figcaption>The first sign I made. Hadn't maxxed out the glam just yet.</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/img/evas-seating.png">
+  <img src="{{ site.baseurl }}/assets/img/evas-seating.jpg">
   <figcaption>The second. The blocky style really started taking shape here.</figcaption>
 </figure>
 
-* * *
 
-## Overdose safety informational postcards (unofficial)
+
+## overdose safety informational postcards (unofficial)
 
 Just to flex — all type on this is set in a font I designed myself, and the syringe needle on the front leads perfectly into the bullet point on the back — if you were to somehow unfold a single sheet of card\.\.\.
 
 <figure>
   <div class="img2">
-    <img src="{{ site.baseurl }}/assets/img/evas-overdose-front.png">
-    <img src="{{ site.baseurl }}/assets/img/evas-overdose-back.png">
+    <img src="{{ site.baseurl }}/assets/img/evas-overdose-front.jpg">
+    <img src="{{ site.baseurl }}/assets/img/evas-overdose-back.jpg">
   </div>
   <!-- <figcaption>So stock image looking, I know...</figcaption> -->
 </figure>
 
-* * *
 
-## Pins
+
+## pins
 
 <figure style="margin-top:.5em">
   <div class="img2m">

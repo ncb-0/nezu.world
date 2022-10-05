@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-      <title>nezu.world | dollhouse</title>
+      <title>nezu.world / dollhouse</title>
     
     <link rel="stylesheet" href="/assets/css/styles.css?v=4">
     <!-- icons -->
@@ -26,12 +26,14 @@
     <meta name="format-detection" content="telephone=no">
     <style>
       a[href*="//"]:not([href*=""])::before {
-        content: "<";
+        font-style: normal;
+        content: "[";
       }
       a[href*="//"]:not([href*=""])::after {
-        content: ">";
+        font-style: normal;
+        content: "]↗";
       }
-      a.banner::before, a.banner::after {
+      before, a.banner::after {
         content: none;
       }
     </style>
@@ -52,39 +54,39 @@
         <div id="breadcrumbs">
   <h6>
     
-      <a href="/">nezu.world</a>
+      <a class="clean" href="/">nezu.world</a>
       
       
         
-          > work
+          / work
         
       
         
           
-            > 2022  
+            / 2022  
           
           
-            > dollhouse <br>
+            / dollhouse <br>
           
           
           
-            <a href="/tag/irl.html">#irl</a>
+            <a class="clean" href="/tag/irl.html">#irl</a>
           
-            <a href="/tag/digital.html">#digital</a>
+            <a class="clean" href="/tag/digital.html">#digital</a>
           
-            <a href="/tag/design.html">#design</a>
+            <a class="clean" href="/tag/design.html">#design</a>
           
-            <a href="/tag/art.html">#art</a>
+            <a class="clean" href="/tag/art.html">#art</a>
           
-            <a href="/tag/music.html">#music</a>
+            <a class="clean" href="/tag/music.html">#music</a>
           
-            <a href="/tag/dj.html">#dj</a>
+            <a class="clean" href="/tag/dj.html">#dj</a>
           
-            <a href="/tag/for-others.html">#for-others</a>
+            <a class="clean" href="/tag/for-others.html">#for-others</a>
           
-            <a href="/tag/2022.html">#2022</a>
+            <a class="clean" href="/tag/2022.html">#2022</a>
           
-            <a href="/tag/ongoing.html">#ongoing</a>
+            <a class="clean" href="/tag/ongoing.html">#ongoing</a>
           
         
       
@@ -109,7 +111,7 @@
 <p>I’m still a noob DJ and have only played one set here, but I had the pleasure of designing the flyer for our rave in March 2022:</p>
 
 <figure>
-  <img src="/assets/img/dollhouse-flyer.png" />
+  <img src="/assets/img/dollhouse-flyer.jpg" />
   <!-- <figcaption>A mutant laying her eggs...</figcaption> -->
 </figure>
 
@@ -138,7 +140,7 @@
         .forEach(function(heading) {
           if (heading.id) {
             heading.innerHTML =
-              '<a href="#' + heading.id + '" class="clean underline">' + heading.innerText + '<\/a>';
+              '<a href="#' + heading.id + '" class="clean">' + heading.innerText + '<\/a>';
           }
         });
     </script>

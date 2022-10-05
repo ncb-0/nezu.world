@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-      <title>nezu.world | art from 2018</title>
+      <title>nezu.world / art from 2018</title>
     
     <link rel="stylesheet" href="/assets/css/styles.css?v=4">
     <!-- icons -->
@@ -26,12 +26,14 @@
     <meta name="format-detection" content="telephone=no">
     <style>
       a[href*="//"]:not([href*=""])::before {
-        content: "<";
+        font-style: normal;
+        content: "[";
       }
       a[href*="//"]:not([href*=""])::after {
-        content: ">";
+        font-style: normal;
+        content: "]↗";
       }
-      a.banner::before, a.banner::after {
+      before, a.banner::after {
         content: none;
       }
     </style>
@@ -52,16 +54,16 @@
         <div id="breadcrumbs">
   <h6>
     
-      <a href="/">nezu.world</a>
+      <a class="clean" href="/">nezu.world</a>
       
       
         
-          > art
+          / art
         
       
         
           
-            > 2018  
+            / 2018  
           
           
           
@@ -107,13 +109,13 @@
 <figure>
   <div class="img2f">
     <div style="flex:0.625;">
-      <img src="/assets/art/2018/efs-proto.png" />
+      <img src="/assets/art/2018/efs-proto.jpg" />
     </div>
     <div style="flex:0.7070980616;">
-      <img src="/assets/art/2018/lc-a2.png" />
+      <img src="/assets/art/2018/lc-a2.jpg" />
     </div>
     <div style="flex:0.7070980616;">
-      <img src="/assets/art/2018/sb-a2.png" />
+      <img src="/assets/art/2018/sb-a2.jpg" />
     </div>
   </div>
 </figure>
@@ -121,10 +123,10 @@
 <figure>
   <div class="img2f">
     <div style="flex:0.7070563079;">
-      <img src="/assets/art/2018/lc2.png" />
+      <img src="/assets/art/2018/lc2.jpg" />
     </div>
     <div style="flex:0.7071155009;">
-      <img src="/assets/art/2018/a3-01.png" />
+      <img src="/assets/art/2018/a3-01.jpg" />
     </div>
   </div>
 </figure>
@@ -155,7 +157,7 @@
         .forEach(function(heading) {
           if (heading.id) {
             heading.innerHTML =
-              '<a href="#' + heading.id + '" class="clean underline">' + heading.innerText + '<\/a>';
+              '<a href="#' + heading.id + '" class="clean">' + heading.innerText + '<\/a>';
           }
         });
     </script>

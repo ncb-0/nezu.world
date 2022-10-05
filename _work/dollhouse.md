@@ -5,7 +5,7 @@ name: "dollhouse"
 tags: [irl, digital, design, art, music, dj, for-others, 2022, ongoing]
 year: 2022
 date: 2022-03-26
-cover: dollhouse-flyer.png
+cover: dollhouse-flyer.jpg
 ---
 
 <figure>
@@ -21,7 +21,7 @@ This year, I've found myself among a community of ravers called DollHouse — ho
 I'm still a noob DJ and have only played one set here, but I had the pleasure of designing the flyer for our rave in March 2022:
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/img/dollhouse-flyer.png">
+  <img src="{{ site.baseurl }}/assets/img/dollhouse-flyer.jpg">
   <!-- <figcaption>A mutant laying her eggs...</figcaption> -->
 </figure>
 

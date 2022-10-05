@@ -3,12 +3,13 @@
 $txt: #7C3E52;
 // $txt: #333;
 $bg: #fff;
-$acc: #d20;
+// $bg: #aaa;
+$acc: #519fad;
 
 $sans: "Helvetica", Arial, sans-serif;
 // $serif: "TimesSquashed", Times, serif;
-$mono: "HelveticaMono", Menlo, Consolas, monospace;
-// $mono: Monaco, Menlo, monospace;
+$mono: "FragmentMono", Menlo, Consolas, monospace;
+
 
 $tm-mega: "Mega", sans-serif;
 $tm-pico-a: "PicoA", sans-serif;
@@ -107,7 +108,7 @@ body {
   z-index: 10;
   min-height: 100vh;
   background: url(/assets/svg/flowers2.svg) top 100vh left 1em / 96px repeat-y,
-  url(/assets/svg/flowers2.svg) top 100vh right 1em / 96px repeat-y;
+  url(/assets/svg/flowers2.svg) top 100vh right 1em / 96px repeat-y, $bg;
 }
 
 #garden {
@@ -257,8 +258,8 @@ h6, figcaption {
 // }
 
 ul {
-  list-style-type: "— ";
-  margin-left: 1.2em;
+  list-style-type: "* ";
+  margin-left: 1.25em;
   // list-style-position: inside;
 }
 
@@ -269,8 +270,11 @@ p, li:last-of-type {
 a {
   text-decoration: none;
   color: $txt;
+  // font-feature-settings: "smcp", "c2sc";
   // font-weight: 700;
   // text-transform: none;
+  font-style: italic;
+  // color: $acc;
 }
 
 a:hover {
@@ -280,18 +284,25 @@ a:hover {
 }
 
 a::before {
+  font-style: normal;
   // opacity: 0.4;
-  content: "{";
+  content: "[";
+  // content: none;
+  // content: "▷";
 }
 
 a::after {
+  font-style: normal;
   // opacity: 0.4;
-  content: "}";
+  content: "]";
+  // content: none;
+  // content: "◁";
 }
 
 a.tag::before {
   content: "#";
 }
+
 a.tag::after {
   content: none;
 }
@@ -299,6 +310,7 @@ a.tag::after {
 a.underline {
   color: $txt;
   background: none;
+  font-style: normal;
   // text-transform: lowercase;
 }
 
@@ -317,8 +329,18 @@ a.clean::after {
   content: none !important;
 }
 
+a.clean, a.tag {
+  font-style: normal;
+  color: $txt;
+}
+
+a.clean:hover, a.tag:hover {
+  color: $bg;
+  background: rgba($txt,1);
+}
+
 blockquote {
-  padding-left: calc(1.98em - 4px);
+  padding-left: calc(1.87em - 4px);
   // background: rgba($txt,1);
   // color: $bg;
   border-left: 4px solid $txt;
@@ -475,14 +497,14 @@ figure.float {
 }
 
 hr {
-  border: 0;
-  margin: 0 0 2em;
+  border: 1px dashed rgba($txt,0.2);
+  margin: 1em 0;
   clear: both;
 }
 
-hr::before {
-  content: "======";
-}
+// hr::before {
+//   content: "======";
+// }
 
 .banner {
   width: 200px;

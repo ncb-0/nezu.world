@@ -37,7 +37,7 @@ if u wanna be buddies... gimme a shout out!
 
 #### fonts
 - Helvetica
-- Helvetica Mono
+- [Fragment Mono](https://github.com/weiweihuanghuang/fragment-mono)
 
 #### tools
 - Visual Studio Code

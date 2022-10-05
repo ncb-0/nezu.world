@@ -5,8 +5,7 @@ name: "dll"
 tags: [vn, art, writing, music, digital, for-others, 2022]
 year: 2022
 date: 2022-07-05
-# cover: dll-window.png
-cover: dll-uni.png
+cover: dll-uni.jpg
 ---
 
 "i die a lovely life" / "DLL" is a short yuri visual novel I created in roughly 2 weeks for the [2022 VN Cup](http://visualnovel.neocities.org). It won bronze. So maybe you should [download it here](http://nezita.itch.io/dll)?
@@ -19,10 +18,10 @@ Long distance girlfriends Uni and Nuña are aching to meet, but neither of them 
 
 <figure>
   <div class="img2">
-    <img src="{{ site.baseurl }}/assets/img/dll-1.png">
-    <img src="{{ site.baseurl }}/assets/img/dll-2.png">
-    <img src="{{ site.baseurl }}/assets/img/dll-3.png">
-    <img src="{{ site.baseurl }}/assets/img/dll-4.png">
+    <img src="{{ site.baseurl }}/assets/img/dll-1.jpg">
+    <img src="{{ site.baseurl }}/assets/img/dll-2.jpg">
+    <img src="{{ site.baseurl }}/assets/img/dll-3.jpg">
+    <img src="{{ site.baseurl }}/assets/img/dll-4.jpg">
   </div>
 </figure>
 

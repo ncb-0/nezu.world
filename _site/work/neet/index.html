@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-      <title>nezu.world | neetgear</title>
+      <title>nezu.world / neetgear</title>
     
     <link rel="stylesheet" href="/assets/css/styles.css?v=4">
     <!-- icons -->
@@ -26,12 +26,14 @@
     <meta name="format-detection" content="telephone=no">
     <style>
       a[href*="//"]:not([href*=""])::before {
-        content: "<";
+        font-style: normal;
+        content: "[";
       }
       a[href*="//"]:not([href*=""])::after {
-        content: ">";
+        font-style: normal;
+        content: "]↗";
       }
-      a.banner::before, a.banner::after {
+      before, a.banner::after {
         content: none;
       }
     </style>
@@ -52,41 +54,41 @@
         <div id="breadcrumbs">
   <h6>
     
-      <a href="/">nezu.world</a>
+      <a class="clean" href="/">nezu.world</a>
       
       
         
-          > work
+          / work
         
       
         
           
-            > 2017–2018  
+            / 2017–2018  
           
           
-            > neetgear <br>
+            / neetgear <br>
           
           
           
-            <a href="/tag/net.html">#net</a>
+            <a class="clean" href="/tag/net.html">#net</a>
           
-            <a href="/tag/collective.html">#collective</a>
+            <a class="clean" href="/tag/collective.html">#collective</a>
           
-            <a href="/tag/merch.html">#merch</a>
+            <a class="clean" href="/tag/merch.html">#merch</a>
           
-            <a href="/tag/fashion.html">#fashion</a>
+            <a class="clean" href="/tag/fashion.html">#fashion</a>
           
-            <a href="/tag/print.html">#print</a>
+            <a class="clean" href="/tag/print.html">#print</a>
           
-            <a href="/tag/for-others.html">#for-others</a>
+            <a class="clean" href="/tag/for-others.html">#for-others</a>
           
-            <a href="/tag/with-others.html">#with-others</a>
+            <a class="clean" href="/tag/with-others.html">#with-others</a>
           
-            <a href="/tag/2017.html">#2017</a>
+            <a class="clean" href="/tag/2017.html">#2017</a>
           
-            <a href="/tag/2018.html">#2018</a>
+            <a class="clean" href="/tag/2018.html">#2018</a>
           
-            <a href="/tag/defunct.html">#defunct</a>
+            <a class="clean" href="/tag/defunct.html">#defunct</a>
           
         
       
@@ -132,7 +134,7 @@
         .forEach(function(heading) {
           if (heading.id) {
             heading.innerHTML =
-              '<a href="#' + heading.id + '" class="clean underline">' + heading.innerText + '<\/a>';
+              '<a href="#' + heading.id + '" class="clean">' + heading.innerText + '<\/a>';
           }
         });
     </script>
