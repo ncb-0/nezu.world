@@ -24,7 +24,7 @@ In 2018, it was my turn. Compared to other students, I displayed very little of 
 
 * * *
 
-### Video
+### video
 
 <figure>
   <video width="100%" autoplay controls loop>
