@@ -8,26 +8,28 @@ name: "about"
 <!-- ## i’m MEL a canadian artist girl outa toronto making my first MANGA... 😊 play DJ... tweak bezier curve... take too much ADHDmeds... -->
 
 <figure class="float right">
-  <img src="{{ site.baseurl }}/assets/img/mel-creature.jpg">
+  <img src="{{ site.baseurl }}/assets/img/lisa.jpg">
 </figure>
 
-## im MEL aka NEZU!!!
+<!-- ### who? -->
 
-im a fake bad bitch outta toronto making manga and playing terrible dj sets that scare the hoes.
+im MEL... aka dj nezu, nezita, ncb0... fka frogheck, sb int’l, etc. i f with it if u wanna call me lisa, too.
 
-##### the rules
-- aka ncb0, frogheck, sb int'l, etc...
-- my initials are M.N.M. — this is of course on purpose
-- if i was an animal itd be ferret or mouse 🐭 
-- i daily drive a 5-year-old base model macbook air... if anyone wants to give me like 2000 CAD for a good pc hmu
-- ive literally been using [clip studio paint](https://www.clipstudio.net/en/) for longer than its existed... i bought that shit when it was called "manga studio 5" in like 2012 and my license got crossgraded. needless to say my setup is insane and i have 45979823457389475 custom keyboard shortcuts
-- im THAT bitch with the MX blue switches... im so sorry
-- sometimes i get wax buildup and go deaf in one ear for weeks at a time
-- i use a custom redeyes deck thats probably super outdated
+obligatory “she/her” goes here. ive legit believed tht im a robot since i was 7, but if i had to pick a kin animal itd be mouse or ferret. i love you.
 
-if u wanna be buddies... gimme a shout out!
+### cut the bs…
+
+im a multidisciplinary artist outta toronto. my work spans [digital art]({{ site.baseurl }}/tag/art), [graphic design]({{ site.baseurl }}/tag/design), [type design]({{ site.baseurl }}/tag/type), [creative writing]({{ site.baseurl }}/tag/writing), [dj]({{ site.baseurl }}/tag/dj), whatever. im constantly learning shit — so expect my output to be all over the place.
+
+if u wanna say hi, best place to hit me up is discord, @nezu#8000. i probably wont respond unless u send me real dope shit o si tu mensajeame en español. 😜
+
+take everything i say as 100% serious.
+
+#dj #party #vibe #club #cool #music #dekbass #adderall
 
 <hr style="clear:none" />
+
+<!-- * * * -->
 
 <!-- ## nezu.world -->
 
@@ -42,6 +44,7 @@ if u wanna be buddies... gimme a shout out!
 #### tools
 - Visual Studio Code
 - Adobe Illustrator CC 2021
+- Clip Studio Paint
 - [Jekyll](http://jekyllrb.com)
 
 <!-- * * *
