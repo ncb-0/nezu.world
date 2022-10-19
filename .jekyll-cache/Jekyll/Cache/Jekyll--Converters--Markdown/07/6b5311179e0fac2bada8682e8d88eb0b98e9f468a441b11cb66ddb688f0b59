@@ -1,72 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    
-
-
-
-
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-      <title>nezu.world</title>
-    
-    <link rel="stylesheet" href="/assets/css/styles.css?v=5">
-    <!-- icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png?v=2">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png?v=2">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png?v=2">
-    <link rel="manifest" href="/assets/icon/site.webmanifest?v=2">
-    <link rel="mask-icon" href="/assets/icon/safari-pinned-tab.svg?v=2" color="#7c3e52">
-    <link rel="shortcut icon" href="/assets/icon/favicon.ico?v=2">
-    <meta name="msapplication-TileColor" content="#7c3e52">
-    <meta name="msapplication-config" content="/assets/icon/browserconfig.xml?v=2">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="format-detection" content="telephone=no">
-    <style>
-      a[href*="//"]:not([href*=""])::before {
-        font-style: normal;
-        content: "[";
-      }
-      a[href*="//"]:not([href*=""])::after {
-        font-style: normal;
-        content: "]â†—";
-      }
-      before, a.banner::after {
-        content: none;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="garden">
-      <div id="flowers"></div>
-      <div id="stems"></div>
-    </div>
-
-    <div id="navcontainer">
-      <div id="nav">
-        <a href="/" class="plain">
-          <!-- <img id="pira-top-left" src="/assets/deco/pira.svg"> -->
-          <svg id="pira-top-left" class="txtfill" version="1.1" id="pira" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path d="M282.3,244.4c-95.8,15-139.1,56.9-139.1,137.6c0,25.4,4.5,45.9,14.5,69.3C57.4,419.9,15,362.1,15,257.8 C15,83.3,136.6,0,384,0s369,83.3,369,257.8c0,104.2-42.4,162.1-142.6,193.5c10-23.4,14.5-43.9,14.5-69.3 c0-80.8-43.4-122.7-139.1-137.6l215.4,374h-175L612.4,768H455.3L384,644.3L312.7,768H155.6l86.3-149.6h-175L282.3,244.4z M316.7,543.6V408.9h-29.9v134.6H316.7z M481.2,543.6V408.9h-29.9v134.6H481.2z"/></svg>
-          
-        </a>
-        <div id="breadcrumbs">
-  <h6>
-    
-      <a class="clean" href="/">nezu.world</a>
-      
-        <p>(c) mel m., 2022. <a class="clean" href="/about.html">&lsqb;<i>who?</i>&rsqb;</a></p>
-      
-      
-  </h6>
-</div>
-
-      </div>
-    </div>
-
-    <div id="content">
-      
+I"Ÿ/
 <div>
   <div style="margin-bottom: 2em">
     <h1 style="margin-bottom: 0">
@@ -323,7 +255,7 @@
 
   <div>
     <h3>
-      support me: <a target="_blank" class="clean" href="https://patreon.com/nezita">patreon</a>, <a target="_blank" class="clean" href="https://www.inprnt.com/profile/nezu/">inprnt</a>, <a target="_blank" class="clean" href="http://ko-fi.com/nezita">ko-fi</a>. (i love you!)
+      support me! <a target="_blank" class="clean" href="https://patreon.com/nezita">patreon</a>, <a target="_blank" class="clean" href="https://www.inprnt.com/profile/nezu/">inprnt</a>, <a target="_blank" class="clean" href="http://ko-fi.com/nezita">ko-fi</a>.
     </h3>
   </div>
 
@@ -410,27 +342,4 @@
     </h6>
   </div>
 </div>
-
-
-
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
-    <script>
-      document
-        .querySelector('#content') // your selector for the post body
-        .querySelectorAll('h1,h2,h3,h4,h5,h6')
-        .forEach(function(heading) {
-          if (heading.id) {
-            heading.innerHTML =
-              '<a href="#' + heading.id + '" class="clean">' + heading.innerText + '<\/a>';
-          }
-        });
-    </script>
-    <script type="text/javascript">
-      function externalLinks() { for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) { var b = c[a]; b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank") } } ; externalLinks();
-    </script>
-    <script type="text/javascript" src="/assets/js/lightbox.js"></script>
-    <script type="text/javascript" src="/assets/js/typetester.js"></script>
-    <script async src="//static.getclicky.com/101383069.js"></script>
-  </body>
-</html>
+:ET
