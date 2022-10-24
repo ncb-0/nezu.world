@@ -2,7 +2,7 @@
 title: "MM"
 short: "mm"
 name: "mm"
-tags: [manga, art, writing, print, personal, 2017, wip, on-hiatus]
+tags: [manga, art, writing, print, digital, personal, 2017, wip, ongoing]
 year: 2017-?
 date: 2017-02-12
 cover: mm-comic.jpg
@@ -10,11 +10,13 @@ cover: mm-comic.jpg
 
 <!-- #### A clueless android goes to work for the very company that built her. -->
 
-An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DPI OekakiVision™. My passion project since early 2017. Coming whenever it's done.
+An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DPI OekakiVision™. My passion project since early 2017. Chapters i & ii are available to read below. Chapters iii & onwards to be released early access on [Patreon](http://patreon.com/nezita).
 
-### preview
+<!-- ### preview -->
 
-<a href="{{ site.baseurl }}/manga/mm-preview">Read chapters 1 & 2...</a>
+<h3 style="margin-bottom:2em">
+  <a style="font-style:normal" href="{{ site.baseurl }}/manga/mm-preview">Read chapters i & ii...</a>
+</h3>
 
 <figure>
   <img src="{{ site.baseurl }}/assets/img/mm5.jpg">
@@ -31,12 +33,6 @@ A 30-something engineer's whole world is turned upside-down when she realizes th
 A gleeful schizophrenic artist finds a best friend and sister in the "freaky military android" she was initially terrified of.
 
 * * *
-
-#### format
-- roughly a5 size
-- monochrome
-- \~200 pages
-- \~75% complete
 
 #### fonts
 - [tm-mega](/work/type/#tm-mega) (unreleased)
