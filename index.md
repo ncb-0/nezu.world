@@ -91,7 +91,7 @@ tag: wip
 
   <div>
     <h3>
-      support me: <a target="_blank" class="clean" href="https://patreon.com/nezita">patreon</a>, <a target="_blank" class="clean" href="https://www.inprnt.com/profile/nezu/">inprnt</a>, <a target="_blank" class="clean" href="http://ko-fi.com/nezita">ko-fi</a>. (i love you!)
+      support me: <a target="_blank" class="clean" href="https://patreon.com/nezita">patreon</a>, <a target="_blank" class="clean" href="https://nezita.itch.io/">itch.io,</a> <a target="_blank" class="clean" href="https://www.inprnt.com/profile/nezu/">inprnt</a>, <a target="_blank" class="clean" href="http://ko-fi.com/nezita">ko-fi</a>. (i love you!)
     </h3>
   </div>
 
