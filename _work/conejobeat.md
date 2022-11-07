@@ -2,7 +2,7 @@
 title: "CONEJOBEAT"
 short: "conejobeat"
 name: "conejobeat"
-tags: [net, collective, second-life, event, dj, music, with-others, 2020, 2021, on-hiatus]
+tags: [net, collective, second-life, event, dj, music, with-others, 2020, 2021, ongoing]
 year: 2020–
 date: 2021-12-11
 cover: wafa-nezu-holy.jpg
@@ -17,15 +17,16 @@ cover: wafa-nezu-holy.jpg
 
 A series of virtual raves hosted by [Sofa](http://yogurt200.com), myself, and the [Conejo Committee](http://casaconejo.neocities.org) at large in [Second Life](https://secondlife.com/). I call them raves, but over time they've grown to be more like audiovisual art shows — each one with more and more artistic curation and planning than the last.
 
-*CONEJOBEAT is currently on hiatus — Second Life is OLD and unoptimized, and currently, my only computer is a 5-year-old MacBook Air... CONEJOBEAT will return whenever I'm able to upgrade my system — likely soon.*
+*CONEJOBEAT will be returning soon! Watch [conejobeat.com](https://conejobeat.com) for more info~*
 
-## conejo committee
+### conejo committee
 
 The [Conejo Committee](http://casaconejo.neocities.org) inhabits and maintains Conejo Island, a virtual commune in Second Life founded by my close friend [Sofa](http://yogurt200.com). The island is divided into several smaller parcels of land owned by different residents, each with their own unique flavour and decorations.
 
 * * *
 
-<h2 style="margin-bottom: .5em;">past events</h2>
+<!-- <h2 style="margin-bottom: .5em;">past events</h2> -->
+## past events
 
 ### HOLY CONEJOBEAT
 

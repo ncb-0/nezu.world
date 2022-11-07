@@ -226,7 +226,12 @@ h2 {
   font: 700 2.5em/1 $sans;
   letter-spacing: -1px;
 
-  // margin-bottom: 18px;
+  // margin-bottom: 0.3em;
+}
+
+p ~ h2, p ~ h3 {
+  margin-top: 0.5em;
+  // margin-bottom: 0.3em;
 }
 
 h3 {
