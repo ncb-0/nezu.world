@@ -1,4 +1,4 @@
-I"ú/
+I"ó1
 <div>
   <div style="margin-bottom: 2em">
     <h1 style="margin-bottom: 0">
@@ -7,6 +7,15 @@
     </h1>
     <div class="portfolio-grid">
       
+      
+        <a class="clean" href="/work/itemlabel/">
+          <div class="portfolio-item">
+            <div class="portfolio-img" style="background-image:url('/assets/cover/itemlabel2.jpg')">
+            </div>
+            <h5 style="text-align:left">itemlabel</h5>
+            <!-- <p><a class="clean" href="/work/itemlabel/">itemlabel</a></p> -->
+          </div>
+        </a>
       
         <a class="clean" href="/work/dll/">
           <div class="portfolio-item">
@@ -134,6 +143,10 @@
       
       
           
+            <a class="clean underline" href="/work/itemlabel/">itemlabel</a>, 
+          
+      
+          
             <a class="clean underline" href="/work/dll/">dll (vn cup)</a>, 
           
       
@@ -249,13 +262,13 @@
   <!-- social -->
   <div>
     <h3>
-      elsewhere: <a target="_blank" class="clean" href="http://twitter.com/ncb0_">twitter</a>, <a target="_blank" class="clean" href="http://instagram.com/ncb0_">instagram</a>, <a target="_blank" class="clean" href="https://www.pixiv.net/en/users/63526507">pixiv</a>, <a target="_blank" class="clean" href="http://conejobeat.com">conejobeat.com</a>.
+      elsewhere: <a target="_blank" class="clean" href="https://twitter.com/ncb0_">twitter</a>, <a target="_blank" class="clean" href="https://instagram.com/ncb0_">instagram</a>, <a target="_blank" class="clean" href="https://artisan.chat/@nezu">mastodon</a>, <a target="_blank" class="clean" href="https://www.pixiv.net/en/users/63526507">pixiv</a>, <a target="_blank" class="clean" href="https://conejobeat.com">conejobeat.com</a>.
     </h3>
   </div>
 
   <div>
     <h3>
-      support me: <a target="_blank" class="clean" href="https://patreon.com/nezita">patreon</a>, <a target="_blank" class="clean" href="https://nezita.itch.io/">itch.io,</a> <a target="_blank" class="clean" href="https://www.inprnt.com/profile/nezu/">inprnt</a>, <a target="_blank" class="clean" href="http://ko-fi.com/nezita">ko-fi</a>. (i love you!)
+      support me: <a target="_blank" class="clean" href="https://patreon.com/nezita">patreon</a>, <a target="_blank" class="clean" href="https://nezita.itch.io/">itch.io</a>, <a target="_blank" class="clean" href="https://www.inprnt.com/profile/nezu/">inprnt</a>, <a target="_blank" class="clean" href="http://ko-fi.com/nezita">ko-fi</a>. (i love you!)
     </h3>
   </div>
 
@@ -314,8 +327,6 @@
         <a class="tag" href="/tag/music.html">music</a>
       
         <a class="tag" href="/tag/net.html">net</a>
-      
-        <a class="tag" href="/tag/on-hiatus.html">on-hiatus</a>
       
         <a class="tag" href="/tag/ongoing.html">ongoing</a>
       
