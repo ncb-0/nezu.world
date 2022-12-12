@@ -17,8 +17,6 @@ cover: wafa-nezu-holy.jpg
 
 A series of virtual raves hosted by [Sofa](http://yogurt200.com), myself, and the [Conejo Committee](http://casaconejo.neocities.org) at large in [Second Life](https://secondlife.com/). I call them raves, but over time they've grown to be more like audiovisual art shows — each one with more and more artistic curation and planning than the last.
 
-*CONEJOBEAT will be returning soon! Watch [conejobeat.com](https://conejobeat.com) for more info~*
-
 ### conejo committee
 
 The [Conejo Committee](http://casaconejo.neocities.org) inhabits and maintains Conejo Island, a virtual commune in Second Life founded by my close friend [Sofa](http://yogurt200.com). The island is divided into several smaller parcels of land owned by different residents, each with their own unique flavour and decorations.
@@ -27,6 +25,16 @@ The [Conejo Committee](http://casaconejo.neocities.org) inhabits and maintains C
 
 <!-- <h2 style="margin-bottom: .5em;">past events</h2> -->
 ## past events
+
+### conejobeat#
+
+26 Nov 2022 — After nearly a year's hiatus, CONEJOBEAT is back — and looking sharp~ [Video.](https://drive.google.com/file/d/1t6xyC6o1lCgvdM032VAmdSVqMXMiqDpP/view?usp=sharing) [Flyer 1.](/assets/gif/sharpteaser.gif) [Flyer 2.](/assets/img/sharpflyer.jpg)
+<figure>
+  <img src="{{ site.baseurl }}/assets/img/sharpvenue.jpg">
+  <figcaption>
+    The venue.
+  </figcaption>
+</figure>
 
 ### HOLY CONEJOBEAT
 
@@ -37,7 +45,6 @@ The [Conejo Committee](http://casaconejo.neocities.org) inhabits and maintains C
     Waterfairy and Nezubo, the hosts of HOLY CONEJOBEAT.
   </figcaption>
 </figure>
-
 
 ### conejobeat_flux
 

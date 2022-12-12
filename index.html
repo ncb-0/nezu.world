@@ -45,20 +45,6 @@ tag: wip
     </div>
   </div>
 
-  <!-- <div style="margin-bottom: 2em">
-    <h1>
-      <a class="clean underline" href="/about.html">mel m.</a> is irresponsible for: <br>
-      {% assign sorted = site.work | sort: "date" | reverse %}
-      {% for item in sorted %}
-          {% if forloop.last == true %}
-            & <a class="clean underline" href="{{ item.url }}">{{ item.short }}</a>.
-          {% else %}
-            <a class="clean underline" href="{{ item.url }}">{{ item.short }}</a>, 
-          {% endif %}
-      {% endfor %}
-    </h1>
-  </div> -->
-
   <!-- art gallery -->
   <div style="margin-bottom: 2em">
     <h1 style="margin-bottom: 0">
@@ -79,6 +65,25 @@ tag: wip
       {% endfor %}
     </div>
   </div>
+
+  <!-- <div style="margin-bottom: 2em">
+    <h1 style="margin-bottom: 0">
+      blog.
+    </h1>
+    {% assign sorted = site.posts | sort: "date" | reverse %}
+    {% for post in sorted %}
+      <div>
+        <div>
+          <h4>
+            <a class="clean" href="{{ post.url }}" style="margin-bottom: 0;">({{ post.date | date: "%Y %m %d" }})</a>
+          </h4>
+        </div>
+        <div style="margin-left: 1.25em;">
+          <p><i>{{ post.excerpt | strip_html }}</i></p>
+        </div>
+      </div>
+    {% endfor %}
+  </div> -->
 
   <!-- <h2><a class="clean" href="/about.html">who?</a></h2> -->
 

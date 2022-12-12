@@ -458,6 +458,12 @@ figure.float {
   margin-bottom: 4px;
 }
 
+.blog-item {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 4em;
+}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

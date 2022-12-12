@@ -129,6 +129,8 @@ h1 + figure, h2 + figure, h3 + figure, figure.float { margin-top: 0; }
 
 .img4, .img4m { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 6px; justify-content: center; margin-bottom: 4px; }
 
+.blog-item { display: grid; grid-template-columns: max-content 1fr; grid-gap: 4em; }
+
 .portfolio-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-gap: 6px; justify-content: center; margin-bottom: 4px; }
 
 .portfolio-img { background-color: none; background-position: top center; background-size: cover; background-repeat: no-repeat; }
