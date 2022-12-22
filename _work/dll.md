@@ -12,7 +12,7 @@ cover: dll-uni.jpg
 
 ### summary
 
-Long distance girlfriends Uni and Nuña are aching to meet, but neither of them can afford the plane tickets. Willing to do anything for money, Uni participates in a research study to have her brain uploaded into a computer... irreversibly?! Oops. But we can still hook up though, right? 😗
+Long distance girlfriends Uni and Nuña are aching to meet, but neither of them can afford the plane tickets. Willing to do anything for money, Uni participates in a research study to have her brain uploaded into a computer… irreversibly?! Oops. But we can still hook up though, right? 😗
 
 ### screenshots
 

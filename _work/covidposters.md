@@ -26,7 +26,7 @@ My biggest task was designing a set of multilingual COVID safety posters, to be 
 
 > "None of the COVID posters I've seen from the government imply any sense of danger or urgency at all! And the colours seem to be chosen at random instead of to convey meaning! It's all too baby mode!!!"
 
-So of course, my TDR-obsessed 19-year-old self set out to make the edgiest, most raw, most "urgent" COVID posters... with style, of course.
+So of course, my TDR-obsessed 19-year-old self set out to make the edgiest, most raw, most "urgent" COVID posters… with style, of course.
 
 These screening posters are my personal favourite:
 
@@ -56,14 +56,14 @@ The screening posters were the culmination of the style I began developing with 
 
 ## overdose safety informational postcards (unofficial)
 
-Just to flex — all type on this is set in a font I designed myself, and the syringe needle on the front leads perfectly into the bullet point on the back — if you were to somehow unfold a single sheet of card\.\.\.
+Just to flex—all type on this is set in a font I designed myself, and the syringe needle on the front leads perfectly into the bullet point on the back—if you were to somehow unfold a single sheet of card\.\.\.
 
 <figure>
   <div class="img2">
     <img src="{{ site.baseurl }}/assets/img/evas-overdose-front.jpg">
     <img src="{{ site.baseurl }}/assets/img/evas-overdose-back.jpg">
   </div>
-  <!-- <figcaption>So stock image looking, I know...</figcaption> -->
+  <!-- <figcaption>So stock image looking, I know…</figcaption> -->
 </figure>
 
 
@@ -75,7 +75,7 @@ Just to flex — all type on this is set in a font I designed myself, and the sy
     <img src="{{ site.baseurl }}/assets/img/evas-button-fall.png">
     <img src="{{ site.baseurl }}/assets/img/evas-button-summer.png">
   </div>
-  <!-- <figcaption>So stock image looking, I know...</figcaption> -->
+  <!-- <figcaption>So stock image looking, I know…</figcaption> -->
 </figure>
 
 * * *

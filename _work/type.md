@@ -47,7 +47,7 @@ A sturdy sans serif with superelliptical curves and a Frutigerian flair. Mega su
 
 ## tm-pico
 
-<p style="margin-bottom:2em">A cute sans-serif with a crude geometric feel and minimal optical corrections. Pico supports Latin Plus (incl. Pinyin & Vietnamese) and basic Cyrillic — for now.</p>
+<p style="margin-bottom:2em">A cute sans-serif with a crude geometric feel and minimal optical corrections. Pico supports Latin Plus (incl. Pinyin & Vietnamese) and basic Cyrillic—for now.</p>
 
 ### pico-A
 

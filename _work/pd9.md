@@ -20,7 +20,7 @@ cover: pd9-a2.jpg
 
 In their senior year, [Etobicoke School of the Arts](http://esainfo.ca) students display their portfolio around the school in an annual event called Portfolio Day. Representatives from 70+ universities and colleges around the globe come to speak to the students and potentially offer scholarships.
 
-In 2018, it was my turn. Compared to other students, I displayed very little of my own artwork — instead, I opted to direct the event's branding with posters, flyers, and other promotional material with a consistent typographical theme and logotype.
+In 2018, it was my turn. Compared to other students, I displayed very little of my own artwork—instead, I opted to direct the event's branding with posters, flyers, and other promotional material with a consistent typographical theme and logotype.
 
 * * *
 

@@ -40,6 +40,21 @@
   font-weight: 700;
 }
 
+// NEZU MONO
+
+@font-face {
+  font-family: "NEZUMONO";
+  src: url("/assets/fonts/NEZUMONO/NEZUMONO-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NEZUMONO";
+  src: url("/assets/fonts/NEZUMONO/NEZUMONO-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
 // Fragment Mono
 
 @font-face {

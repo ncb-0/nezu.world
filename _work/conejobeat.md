@@ -9,13 +9,13 @@ cover: wafa-nezu-holy.jpg
 ---
 
 <figure class="float right">
-  <img src="{{ site.baseurl }}/assets/img/nezdrain.jpg" title="Check the bootleg Murakami bandana...">
+  <img src="{{ site.baseurl }}/assets/img/nezdrain.jpg" title="Check the bootleg Murakami bandana…">
   <figcaption>
     My avatar Nezu in Conejo.
   </figcaption>
 </figure>
 
-A series of virtual raves hosted by [Sofa](http://yogurt200.com), myself, and the [Conejo Committee](http://casaconejo.neocities.org) at large in [Second Life](https://secondlife.com/). I call them raves, but over time they've grown to be more like audiovisual art shows — each one with more and more artistic curation and planning than the last.
+A series of virtual raves hosted by [Sofa](http://yogurt200.com), myself, and the [Conejo Committee](http://casaconejo.neocities.org) at large in [Second Life](https://secondlife.com/). I call them raves, but over time they've grown to be more like audiovisual art shows—each one with more and more artistic curation and planning than the last.
 
 ### conejo committee
 
@@ -28,7 +28,7 @@ The [Conejo Committee](http://casaconejo.neocities.org) inhabits and maintains C
 
 ### conejobeat#
 
-26 Nov 2022 — After nearly a year's hiatus, CONEJOBEAT is back — and looking sharp~ [Video.](https://drive.google.com/file/d/1t6xyC6o1lCgvdM032VAmdSVqMXMiqDpP/view?usp=sharing) [Flyer 1.](/assets/gif/sharpteaser.gif) [Flyer 2.](/assets/img/sharpflyer.jpg)
+26 Nov 2022—After nearly a year's hiatus, CONEJOBEAT is back—and looking sharp~ [Video.](https://drive.google.com/file/d/1t6xyC6o1lCgvdM032VAmdSVqMXMiqDpP/view?usp=sharing) [Flyer 1.](/assets/gif/sharpteaser.gif) [Flyer 2.](/assets/img/sharpflyer.jpg)
 <figure>
   <img src="{{ site.baseurl }}/assets/img/sharpvenue.jpg">
   <figcaption>
@@ -38,7 +38,7 @@ The [Conejo Committee](http://casaconejo.neocities.org) inhabits and maintains C
 
 ### HOLY CONEJOBEAT
 
-11 Dec 2021 — The LOVEMETER finally reaches 100% and CONEJO ascends to heaven. [Video.](https://www.youtube.com/watch?v=pl7kV1BxbaI) [Flyer.](/assets/img/holy-flyer.jpg)
+11 Dec 2021—The LOVEMETER finally reaches 100% and CONEJO ascends to heaven. [Video.](https://www.youtube.com/watch?v=pl7kV1BxbaI) [Flyer.](/assets/img/holy-flyer.jpg)
 <figure>
   <img src="{{ site.baseurl }}/assets/img/wafa-nezu-holy.jpg">
   <figcaption>
@@ -48,7 +48,7 @@ The [Conejo Committee](http://casaconejo.neocities.org) inhabits and maintains C
 
 ### conejobeat_flux
 
-31 Jul 2021 — All the smiles from past CONEJOBEATs have caused the LOVEMETER to get stuck at 99% — trapping CONEJO in a digital purgatory. [Flyer.](/assets/img/flux-flyer.jpg)
+31 Jul 2021—All the smiles from past CONEJOBEATs have caused the LOVEMETER to get stuck at 99%—trapping CONEJO in a digital purgatory. [Flyer.](/assets/img/flux-flyer.jpg)
 <figure>
   <div style="position:relative;padding-top:56.25%;margin-bottom:7px;">
     <iframe src="https://www.youtube.com/embed/8RUM_qN37Dw" frameborder="0" allowfullscreen
@@ -61,7 +61,7 @@ The [Conejo Committee](http://casaconejo.neocities.org) inhabits and maintains C
 
 ### LUCKY CONEJOBEAT
 
-26 Feb 2021 — celebrating the Year of the Ox. [Video.](https://www.youtube.com/watch?v=EKG9sqh2Hdc) [Flyer.](/assets/img/lucky-flyer.jpg) [Flyer 2.](/assets/gif/cbpromo.gif)
+26 Feb 2021—celebrating the Year of the Ox. [Video.](https://www.youtube.com/watch?v=EKG9sqh2Hdc) [Flyer.](/assets/img/lucky-flyer.jpg) [Flyer 2.](/assets/gif/cbpromo.gif)
 <figure>
   <img src="{{ site.baseurl }}/assets/img/lcb.jpg">
   <figcaption>
@@ -82,7 +82,7 @@ Series of mini-raves in autumn 2020. [Video 1.](https://www.youtube.com/watch?v=
 
 ### conejoBeat+
 
-27 June 2020 — the first "true" CONEJOBEAT. [Video.](https://www.youtube.com/watch?v=2z4e9N0mBq0) [Flyer.](/assets/img/plus-flyer.jpg)
+27 June 2020—the first "true" CONEJOBEAT. [Video.](https://www.youtube.com/watch?v=2z4e9N0mBq0) [Flyer.](/assets/img/plus-flyer.jpg)
 
 <figure>
   <img src="{{ site.baseurl }}/assets/img/wafamc.jpg">

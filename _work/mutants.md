@@ -12,7 +12,7 @@ Artwork for the sixth installment of [Mutants Mixtape](https://mutants1000000.ba
 
 <figure>
   <img src="{{ site.baseurl }}/assets/img/mm6.jpg" style="margin-top:0">
-  <figcaption>A mutant laying her eggs...</figcaption>
+  <figcaption>A mutant laying her eggs…</figcaption>
 </figure>
 
 * * *
