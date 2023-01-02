@@ -3,7 +3,7 @@
     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
       <a class="clean" href="/">nezu.world</a>
       {% if page.title == 'home' %}
-        <h6 style="padding-top: 0;">(c) mel m., 2022. <a class="clean" href="/about.html">&lsqb;<i>who?</i>&rsqb;</a></h6>
+        <h6 style="padding-top: 0;">(c) mel m., 2023. <a class="clean" href="/about.html">&lsqb;<i>who?</i>&rsqb;</a></h6>
       {% endif %}
       {% for crumb in crumbs offset: 1 %}
         {% if forloop.last %}

@@ -511,7 +511,8 @@ figure.float {
 }
 
 hr {
-  border: 1px dashed rgba($txt,0.2);
+  border: none;
+  border-top: 1px dotted rgba($txt,1);
   margin: 1em 0;
   clear: both;
 }
