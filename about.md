@@ -1,8 +1,8 @@
 ---
 layout: item
-title: "about"
-short: "about"
-name: "about"
+title: "About"
+short: "About"
+name: "About"
 ---
 
 <!-- ## i’m MEL a canadian artist girl outa toronto making my first MANGA… 😊 play DJ… tweak bezier curve… take too much ADHDmeds… -->
