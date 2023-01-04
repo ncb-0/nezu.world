@@ -1,7 +1,7 @@
 ---
 title: "Yakui—Imni"
-short: "yakui—imni"
-name: "yakui—imni"
+short: "Yakui—Imni"
+name: "Yakui—Imni"
 tags: [digital, design, art, music, album-art, for-others, 2019]
 year: 2019
 date: 2019-08-02
@@ -18,7 +18,7 @@ A vast digital space in which clouds of infinitely small points guide weightless
 
 * * *
 
-## cd release
+## CD release
 
 <figure>
   <div class="img2  ">
@@ -32,7 +32,7 @@ A vast digital space in which clouds of infinitely small points guide weightless
 
 
 
-## scrapped iterations
+## Scrapped iterations
 
 <figure>
   <div class="img4m">
@@ -78,10 +78,10 @@ A vast digital space in which clouds of infinitely small points guide weightless
 
 * * *
 
-<figure>
-  <!-- <img src="{{ site.baseurl }}/assets/img/sb-telecom.svg"> -->
-  <svg class="txtfill" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-    height="196px" viewBox="0 0 750 196" enable-background="new 0 0 750 196" xml:space="preserve">
+#### Typeface
+
+<figure style="margin-top:.5em;">
+  <svg class="txtfill" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 750 196" enable-background="new 0 0 750 196" xml:space="preserve">
     <g id="Layer_1">
       <g>
         <path d="M22.001,19.759c-0.4,0.3-0.85,0.45-1.35,0.45c-0.7,0-1.45-0.35-1.95-1c-1.55-1.95-3.05-2.65-5.15-2.65
@@ -865,9 +865,9 @@ A vast digital space in which clouds of infinitely small points guide weightless
 
 </figure>
 
-#### fonts
+#### Fonts
 - sb-telecom (obsolete, unreleased)
 
-#### tools
+#### Fools
 - Blender 2.79
 - Adobe Illustrator CC

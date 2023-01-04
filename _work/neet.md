@@ -1,7 +1,7 @@
 ---
 title: "Neetgear"
-short: "neetgear"
-name: "neetgear"
+short: "Neetgear"
+name: "Neetgear"
 tags: [net, collective, merch, fashion, print, for-others, with-others, 2017, 2018, defunct]
 year: 2017–2018
 date: 2017-11-27
@@ -25,7 +25,7 @@ Neet closed in December 2018.
 </figure>
 * * *
 
-#### tools
+#### Tools
 - MS Paint
 - Clip Studio Paint Pro
 - Blender 2.7x

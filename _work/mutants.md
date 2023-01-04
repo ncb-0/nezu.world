@@ -1,7 +1,7 @@
 ---
 title: "Mutants Mixtape Vol. 6: “Home”"
-short: "mutants mixtape 6"
-name: "mutants mixtape 6"
+short: "Mutants Mixtape 6"
+name: "Mutants Mixtape 6"
 tags: [digital, design, art, music, album-art, for-others, 2021]
 year: 2021
 date: 2021-11-29
@@ -17,10 +17,10 @@ Artwork for the sixth installment of [Mutants Mixtape](https://mutants1000000.ba
 
 * * *
 
-#### fonts
+#### Fonts
 - [tm-pico-A](/work/type/#pico-a) (unreleased)
 
-#### tools
+#### Tools
 - Clip Studio Paint Pro
 - Procreate
 - Affinity Designer

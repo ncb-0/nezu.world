@@ -1,7 +1,7 @@
 ---
 title: "MM"
-short: "mm"
-name: "mm"
+short: "MM"
+name: "MM"
 tags: [manga, art, writing, print, digital, personal, 2017, wip, ongoing]
 year: 2017-?
 date: 2017-02-12
@@ -22,7 +22,7 @@ An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DP
   <img src="{{ site.baseurl }}/assets/img/mm5.jpg">
 </figure>
 
-### premise
+## Premise
 
 A naïve robot thinks herself human, until a freak accident at work reveals she's been working for the very company that *built* her.
 
@@ -34,8 +34,8 @@ A gleeful schizophrenic artist finds a best friend and sister in the "freaky mil
 
 * * *
 
-#### fonts
+#### Fonts
 - [tm-mega](/work/type/#tm-mega) (unreleased)
 
-#### tools
+#### Tools
 - Clip Studio Paint Pro

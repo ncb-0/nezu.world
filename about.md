@@ -13,7 +13,7 @@ name: "about"
 
 <!-- ### who? -->
 
-im MEL… aka dj nezu, nezita, ncb0… fka frogheck, sb int’l, etc. i f with it if u wanna call me lisa, too.
+im LISA… aka dj nezu, nezita, ncb0… fka frogheck, sb int’l, etc. if you know me as MEL thats chill too.
 
 obligatory “she/her” goes here. ive legit believed tht im a robot since i was 7, but if i had to pick a kin animal itd be mouse or ferret. i love you.
 
@@ -34,7 +34,7 @@ take everything i say as 100% serious.
 <!-- ## nezu.world -->
 
 <h3 style="margin-bottom:0.5em">
-  hand-coded with <3 by mel m. &copy; 2022.
+  hand-coded with <3 by lisa m. &copy; 2023.
 </h3>
 
 #### fonts

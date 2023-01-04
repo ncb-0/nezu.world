@@ -1,7 +1,7 @@
 ---
-title: "Type Design"
-short: "type design"
-name: "type design"
+title: "Type design"
+short: "Type design"
+name: "Type design"
 tags: [design, type, 2020, 2021, 2022, wip]
 year: 2020–
 date: 2020-01-25
@@ -12,7 +12,7 @@ I design fonts! None of these are "officially" available to purchase, but if you
 
 * * *
 
-# editable samples
+# Editable samples
 
 ## tm-mega
 

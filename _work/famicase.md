@@ -1,7 +1,7 @@
 ---
 title: "My Famicase Exhibition 2020"
-short: "famicase 2020"
-name: "famicase 2020"
+short: "Famicase 2020"
+name: "Famicase 2020"
 tags: [irl, event, art, design, print, for-others, 2020]
 year: 2020
 date: 2020-06-01
@@ -32,9 +32,9 @@ Entry description: *mingOS is a cartridge based operating system for Ming robots
 
 * * *
 
-#### fonts
+#### Fonts
 - [tm-pico-B](/work/type/#pico-b) (unreleased)
 
-#### tools
+#### Tools
 - Affinity Designer
 - Glyphs 2.65

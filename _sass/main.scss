@@ -1,12 +1,13 @@
 @use "sass.color";
 
-$txt: #7C3E52;
+// $txt: #7C3E52;
+$txt: #28348a;
 // $txt: #333;
 $bg: #fff;
-// $bg: #aaa;
+// $bg: #aaa; 
 $acc: #519fad;
 
-$sans: Helvetica, Arial, sans-serif;
+$sans: "Helvetica", Arial, sans-serif;
 $mono: "NEZUMONO", "Fragment Mono", Menlo, Consolas, monospace;
 
 // $sans: "SuisseIntl", Arial, sans-serif;
@@ -74,7 +75,7 @@ $tm-spec: "Spec", sans-serif;
 }
 
 // $cwidth: 100vw;
-$cwidth: 854px;
+$cwidth: 777px;
 $cwide: 1000px;
 
 * {
@@ -98,18 +99,20 @@ $cwide: 1000px;
   display: none;
 }
 
+:root {
+  color: $txt;
+  font-size: 12px;
+}
+
 body {
   width: 100vw;
   // padding: 2px 6px;
   // background: $bg;
   // background: #ddd;
-  color: $txt;
-  font-size: 14px;
   overflow-x: hidden;
   z-index: 10;
   min-height: 100vh;
-  background: url(/assets/svg/flowers2.svg) top 100vh left 1em / 96px repeat-y,
-  url(/assets/svg/flowers2.svg) top 100vh right 1em / 96px repeat-y, $bg;
+  background: url(/assets/svg/flowers2.svg) top 100vh right 1em/96px repeat-y, $bg;
 }
 
 #garden {
@@ -122,8 +125,9 @@ body {
   position: absolute;
   top: 0; left: 0;
   width: 100vw; height: 100vh;
-  background: url(/assets/svg/flowers.svg) bottom 0 left 1em / 96px no-repeat,
-  url(/assets/svg/flowers.svg) bottom 0 right 1em / 96px no-repeat, $bg;
+  // background: url(/assets/svg/flowers.svg) bottom 0 left 1em / 96px no-repeat,
+  // url(/assets/svg/flowers.svg) bottom 0 right 1em / 96px no-repeat, $bg;
+  background: url(/assets/svg/flowers.svg) bottom 0 right 1em / 96px no-repeat, $bg;
 }
 
 // #stems {
@@ -137,19 +141,14 @@ body {
 // }
 
 #content {
-  // padding: 2px 6px 12px;
-  background: $bg;
   max-width: $cwidth;
-  // border-bottom: 4px solid $txt;
-  margin: 0 auto;
   padding: 3em 6px;
-  // min-height: 100vh;
-  // margin: 3em 0 3em 2.5em;
-  // margin: 3em auto 0;
-  // box-shadow: 0 0 1em 1em $bg, 0 0 1em 1em $bg;
-  // border-left: solid .5em $txt;
-  // border-right: solid .5em $txt;
-  // border-bottom: solid .5em $txt;
+}
+
+#content-wide {
+  width: 100vw;
+  max-width: calc(100vw - 100px);
+  padding: 3em 6px;
 }
 
 #alltags {
@@ -172,10 +171,10 @@ body {
   display: grid;
   // grid-template-columns: 0 1fr;
   grid-template-columns: 2.5em 1fr;
-  padding: 0 6px;
+  padding: 2px 6px 3px;
   max-width: $cwidth;
   background: $bg;
-  margin: 0 auto;
+  // margin: 0 auto;
   // max-width: $cwidth;
   h6 {
     // box-sizing: content-box;
@@ -198,36 +197,24 @@ body {
   height: 1.75em;
   // left: 6px;
   transform: translate(0,2px);
-  z-index: 9999;
+  z-index: 9999
 }
 
-svg.txtfill {
+.txtfill {
   fill: $txt;
 }
 
 // text styles
 
 h1 {
-  // font: 400 5em/0.8 $serif;
-
-  // font: 700 3em/1 $mono;
-
-  font: 700 4em/1 $sans;
-  letter-spacing: -2px;
-
-  // text-transform: uppercase;
-  // font: 700 2em/1 $mono;
-  // margin-bottom: 18px;
-  z-index: 999999;
+  // font: 700 4em/1 $sans;
+  font: 700 3em/0.9 $sans;
+  letter-spacing: -1px;
 }
 
 h2 {
-  // font: 700 2em/1 $mono;
-
-  font: 700 2.5em/1 $sans;
-  letter-spacing: -1px;
-
-  // margin-bottom: 0.3em;
+  font: 700 2em/1 $sans;
+  letter-spacing: -0.5px;
 }
 
 p ~ h2, p ~ h3 {
@@ -236,16 +223,12 @@ p ~ h2, p ~ h3 {
 }
 
 h3 {
-  // font: 700 1.5em/1 $mono;
-
-  font: 700 1.75em/1 $sans;
-  letter-spacing: -0.5px;
-
-  // margin-bottom: 18px;
+  font: 700 1.5em/1 $sans;
 }
 
 h4 {
-  font: 700 1.25em/1 $sans;
+  // font: 700 1.2em/1 $sans;
+  font: 700 1em/1 $mono;
   // margin-bottom: 0.5em;
 }
 
@@ -276,12 +259,12 @@ p, li:last-of-type {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: $txt;
   // font-feature-settings: "smcp", "c2sc";
   // font-weight: 700;
   // text-transform: none;
-  font-style: italic;
+  // font-style: italic;
   // color: $acc;
 }
 
@@ -291,7 +274,23 @@ a:hover {
   // text-transform: uppercase;
 }
 
-a::before {
+a.plain {
+  color: $txt;
+  border: none;
+  background: none;
+}
+
+a.plain:hover {
+  color: $txt;
+  border: none;
+  background: none;
+}
+
+a.plain::before, a.plain::after {
+  content: none;
+}
+
+/* a::before {
   font-style: normal;
   // opacity: 0.4;
   content: "[";
@@ -305,7 +304,7 @@ a::after {
   content: "]";
   // content: none;
   // content: "◁";
-}
+} */
 
 a.tag::before {
   content: "#";
@@ -313,20 +312,6 @@ a.tag::before {
 
 a.tag::after {
   content: none;
-}
-
-a.underline {
-  color: $txt;
-  background: none;
-  font-style: normal;
-  // text-transform: lowercase;
-}
-
-a.underline:hover {
-  color: $txt;
-  background: none;
-  text-decoration: underline;
-  // text-transform: uppercase;
 }
 
 a.clean::before {
@@ -339,6 +324,7 @@ a.clean::after {
 
 a.clean, a.tag {
   font-style: normal;
+  text-decoration: none;
   color: $txt;
 }
 
@@ -348,10 +334,10 @@ a.clean:hover, a.tag:hover {
 }
 
 blockquote {
-  padding-left: calc(1.87em - 4px);
-  // background: rgba($txt,1);
+  padding-left: calc(1.85em - 4px);
+  // background: rgba($txt,0.1);
   // color: $bg;
-  border-left: 4px solid $txt;
+  border-left: 4px solid rgba($txt,.15);
 }
 
 // em {
@@ -364,8 +350,8 @@ blockquote {
 h1::before, h2::before, h3::before, h4::before, h5::before, h6::before { 
   display: block; 
   content: " "; 
-  margin-top: -2em; 
-  height: 2em; 
+  // margin-top: -2em; 
+  // height: 2em; 
   visibility: hidden; 
   pointer-events: none;
 }
@@ -468,9 +454,9 @@ figure.float {
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 6px;
-  justify-content: center;
+  grid-template-columns: repeat( auto-fill, minmax(150px, 1fr) );
+  grid-gap: 8px;
+  justify-content: left;
   // margin-top: 5px;
   margin-bottom: 4px;
 }
@@ -479,11 +465,11 @@ figure.float {
 //   grid-gap: 10px;
 // }
 
-// .portfolio-item {
-//   border: 1px solid rgba($txt, 0.2);
-//   padding: 6px 6px 3px;
-//   // border: 6px solid rgba($txt, 0.0);
-// }
+.portfolio-item {
+  border: 1px dashed rgba($txt, 1);
+  padding: 6px 6px 3px;
+  // border: 6px solid rgba($txt, 0.0);
+}
 
 .portfolio-img {
   // aspect-ratio: 1 / 1;
@@ -512,7 +498,7 @@ figure.float {
 
 hr {
   border: none;
-  border-top: 1px dotted rgba($txt,1);
+  border-top: 1px dashed rgba($txt,1);
   margin: 1em 0;
   clear: both;
 }
@@ -531,22 +517,6 @@ hr {
 
 .banner img {
   margin: none;
-}
-
-a.plain {
-  color: $txt;
-  border: none;
-  background: none;
-}
-
-a.plain:hover {
-  color: $txt;
-  border: none;
-  background: none;
-}
-
-a.plain::before, a.plain::after {
-  content: none;
 }
 
 // manga
@@ -619,44 +589,49 @@ select {
   color: $txt;
   cursor: pointer;
 }
+
 .slider {
   transform: translateY(-2px);
   border-radius: 2px;
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
-  height: 2px;
-  background: rgba($txt,0.2);
+  height: 1px;
+  background: rgba($txt,.25);
   margin-bottom: 12px;
 }
+
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   // border-radius: 100%;
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   background: $txt;
   cursor: pointer;
   border: none;
   outline: none;
 }
+
 .slider::-moz-range-thumb {
   -webkit-appearance: none;
   appearance: none;
   // border-radius: 100%;
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   background: $txt;
   cursor: pointer;
   border: none;
   outline: none;
 }
+
 .slider:hover::-webkit-slider-thumb {
   // background: $acc;
   cursor: pointer;
   border: none;
   outline: none;
 }
+
 .slider:hover::-moz-range-thumb {
   // background: $acc;
   cursor: pointer;
@@ -771,13 +746,18 @@ select {
 //   }
 // }
 
-@media (max-width:1070px) {
+@media (max-width:885px) {
   body {
     background: $bg;
   }
 
   #garden {
     display: none;
+  }
+
+  #content-wide {
+    max-width: 100vw;
+    padding: 3em 6px;
   }
 }
 
@@ -798,13 +778,13 @@ select {
     margin-bottom: 4px;
   }
 
-  .portfolio-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 6px;
-    justify-content: center;
-    margin-bottom: 4px;
-  }
+  // .portfolio-grid {
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr;
+  //   grid-gap: 6px;
+  //   justify-content: center;
+  //   margin-bottom: 4px;
+  // }
   
   // .portfolio-img {
   //   outline: 1px solid rgba($txt, 0.1);

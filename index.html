@@ -1,73 +1,75 @@
 ---
-layout: main
+layout: default
 title: home
 tag: wip
 ---
 
-{% assign rawtags = "" %}
-{% for item in site.work %}
-  {% assign ttags = item.tags | join:'|' | append:'|' %}
-  {% assign rawtags = rawtags | append:ttags %}
-{% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort %}
+<div id="content-wide">
+  {% assign rawtags = "" %}
+  {% for item in site.work %}
+    {% assign ttags = item.tags | join:'|' | append:'|' %}
+    {% assign rawtags = rawtags | append:ttags %}
+  {% endfor %}
+  {% assign rawtags = rawtags | split:'|' | sort %}
 
-{% assign site.tags = "" %}
-{% for tag in rawtags %}
-  {% if tag != "" %}
-    {% if tags == "" %}
-      {% assign tags = tag | split:'|' %}
+  {% assign site.tags = "" %}
+  {% for tag in rawtags %}
+    {% if tag != "" %}
+      {% if tags == "" %}
+        {% assign tags = tag | split:'|' %}
+      {% endif %}
+      {% unless tags contains tag %}
+        {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+      {% endunless %}
     {% endif %}
-    {% unless tags contains tag %}
-      {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
-    {% endunless %}
-  {% endif %}
-{% endfor %}
+  {% endfor %}
 
-<div>
-  <div style="margin-bottom: 2em">
-    <h1 style="margin-bottom: 0">
-      <!-- <a class="clean underline" href="/about.html">mel</a> is irresponsible for: <br> -->
-      work.
-    </h1>
-    <div class="portfolio-grid">
-      {% assign sorted = site.work | sort: "date" | reverse %}
-      {% for item in sorted %}
-        <a class="clean" href="{{ item.url }}">
-          <div class="portfolio-item">
-            <div class="portfolio-img"
-                style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item.cover }}')">
+  <div>
+    <div style="margin-bottom: 2em">
+      <h1 style="margin-bottom: 0">
+        <!-- <a class="clean underline" href="/about.html">mel</a> is irresponsible for: <br> -->
+        Portfolio:
+      </h1>
+      <div class="portfolio-grid">
+        {% assign sorted = site.work | sort: "date" | reverse %}
+        {% for item in sorted %}
+          <a href="{{ item.url }}">
+            <div class="portfolio-item">
+              <div class="portfolio-img"
+                  style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item.cover }}')">
+              </div>
+              <h5 style="text-align:left">{{ item.short }}</h5>
+              <!-- <p><a href="{{ item.url }}">{{ item.short }}</a></p> -->
             </div>
-            <h5 style="text-align:left">{{ item.short }}</h5>
-            <!-- <p><a class="clean" href="{{ item.url }}">{{ item.short }}</a></p> -->
-          </div>
-        </a>
-      {% endfor %}
+          </a>
+        {% endfor %}
+      </div>
     </div>
-  </div>
 
   <!-- art gallery -->
   <div style="margin-bottom: 2em">
     <h1 style="margin-bottom: 0">
-      art.
+      Gallery:
     </h1>
     <div class="portfolio-grid">
       {% assign sorted = site.art | sort: "date" | reverse %}
       {% for item in sorted %}
-        <a class="clean" href="{{ item.url }}">
+        <a href="{{ item.url }}">
           <div class="portfolio-item">
             <div class="portfolio-img"
                 style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item.cover }}')">
             </div>
             <h5 style="text-align:left">{{ item.short }}</h5>
-            <!-- <p><a class="clean" href="{{ item.url }}">{{ item.short }}</a></p> -->
+            <!-- <p><a href="{{ item.url }}">{{ item.short }}</a></p> -->
           </div>
         </a>
       {% endfor %}
     </div>
   </div>
+</div>
 
   <div style="margin-bottom: 2em">
-    <h2 style="margin-bottom: 0">notice: nezu.world v2.0 coming soon.</h2>
+    <h3 style="margin-bottom: 0">Notice: Awaiting nezu.world@2.0.</h3>
   </div>
 
   <!-- <div style="margin-bottom: 2em">
@@ -79,7 +81,7 @@ tag: wip
       <div>
         <div>
           <h4>
-            <a class="clean" href="{{ post.url }}" style="margin-bottom: 0;">({{ post.date | date: "%Y %m %d" }})</a>
+            <a href="{{ post.url }}" style="margin-bottom: 0;">({{ post.date | date: "%Y %m %d" }})</a>
           </h4>
         </div>
         <div style="margin-left: 1.25em;">
@@ -89,24 +91,24 @@ tag: wip
     {% endfor %}
   </div> -->
 
-  <!-- <h2><a class="clean" href="/about.html">who?</a></h2> -->
+  <!-- <h2><a href="/about.html">who?</a></h2> -->
 
   <!-- social -->
   <div>
     <h3>
-      elsewhere: <a target="_blank" class="clean" href="https://narratosis.com/nezu">fediverse</a>, <a target="_blank" class="clean" href="https://twitter.com/ncb0_">twitter</a>, <a target="_blank" class="clean" href="https://instagram.com/ncb0_">instagram</a>, <a target="_blank" class="clean" href="https://www.pixiv.net/en/users/63526507">pixiv</a>, <a target="_blank" class="clean" href="https://conejobeat.com">conejobeat.com</a>.
+      Elsewhere: <a target="_blank" href="https://twitter.com/ncb0_">Twitter</a>, <a target="_blank" href="https://instagram.com/ncb0_">Instagram</a>, <a target="_blank" href="https://www.pixiv.net/en/users/63526507">Pixiv</a>, <a target="_blank" href="https://conejobeat.com">conejobeat.com</a>.
     </h3>
   </div>
 
   <div>
     <h3>
-      support me: <a target="_blank" class="clean" href="https://patreon.com/nezita">patreon</a>, <a target="_blank" class="clean" href="https://nezita.itch.io/">itch.io</a>, <a target="_blank" class="clean" href="https://www.inprnt.com/profile/nezu/">inprnt</a>, <a target="_blank" class="clean" href="http://ko-fi.com/nezita">ko-fi</a>. (i love you!)
+      Support me: <a target="_blank" href="https://patreon.com/nezita">Patreon</a>, <a target="_blank" href="https://nezita.itch.io/">Itch.io</a>, <a target="_blank" href="http://ko-fi.com/nezita">Ko-fi</a>.
     </h3>
   </div>
 
   <!-- contact -->
   <div>
-    <h3>forward complaints: <a class="clean" href="mailto:mel@nezu.world">mel@nezu.world</a>, <a class="clean" href="http://discord.com/users/272803229274996737">nezu#8000</a>.</h3>
+    <h3>Forward complaints: <a href="mailto:mel@nezu.world">mel@nezu.world</a>, <a href="http://discord.com/users/272803229274996737">nezu#8000</a>.</h3>
     <!-- <ul class="links">
       <li><a class="external2" href="mailto:mel@ncb0.work">mel@ncb0.work</a> </li>
       <li><a class="external2" href="http://discord.com/users/272803229274996737">nezu#8000</a> </li>
