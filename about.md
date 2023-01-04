@@ -33,9 +33,7 @@ take everything i say as 100% serious.
 
 <!-- ## nezu.world -->
 
-<h3 style="margin-bottom:0.5em">
-  hand-coded with <3 by lisa m. &copy; 2023.
-</h3>
+**&lt;/&gt; with <3 by lisa m. (c) 2023.**
 
 #### fonts
 - Helvetica
