@@ -103,7 +103,7 @@ a.clean:hover, a.tag:hover { color: #fff; background: #28348a; }
 
 blockquote { padding-left: calc(1.85em - 4px); border-left: 4px solid rgba(40, 52, 138, 0.15); }
 
-h1::before, h2::before, h3::before, h4::before, h5::before, h6::before { display: block; content: " "; visibility: hidden; pointer-events: none; }
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before { display: block; content: " "; margin-top: -2em; height: 2em; visibility: hidden; pointer-events: none; }
 
 figure { max-width: 100%; margin: 2em 0 2em; clear: none !important; float: none; z-index: 1; }
 
