@@ -19,7 +19,7 @@ An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DP
 </h3>
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/img/mm5.jpg">
+  <img src="{{ site.baseurl }}/assets/img/mm5.jpg?v=2">
 </figure>
 
 ## Premise
