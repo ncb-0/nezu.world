@@ -33,13 +33,14 @@ tag: wip
       <div class="portfolio-grid">
         {% assign sorted = site.work | sort: "date" | reverse %}
         {% for item in sorted %}
-          <a href="{{ item.url }}">
+          <a href="{{ item.url }}" class="plain">
             <div class="portfolio-item">
               <div class="portfolio-img"
                   style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item.cover }}')">
               </div>
               <h5 style="text-align:left">{{ item.short }}</h5>
               <!-- <p><a href="{{ item.url }}">{{ item.short }}</a></p> -->
+              <div class="dogear"></div>
             </div>
           </a>
         {% endfor %}
@@ -54,66 +55,53 @@ tag: wip
     <div class="portfolio-grid">
       {% assign sorted = site.art | sort: "date" | reverse %}
       {% for item in sorted %}
-        <a href="{{ item.url }}">
+        <a href="{{ item.url }}" class="plain">
           <div class="portfolio-item">
             <div class="portfolio-img"
-                style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item.cover }}')">
+                 style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item. cover }}')">
             </div>
             <h5 style="text-align:left">{{ item.short }}</h5>
             <!-- <p><a href="{{ item.url }}">{{ item.short }}</a></p> -->
+            <div class="dogear"></div>
           </div>
         </a>
       {% endfor %}
     </div>
   </div>
-</div>
 
-  <div style="margin-bottom: 2em">
-    <h3 style="margin-bottom: 0">Notice: Awaiting nezu.world@2.0.</h3>
+  <!-- <hr> -->
+
+  <!-- social -->
+
+  <div style="font-size: 3em; margin-bottom: 0">
+    <a target="_blank" href="https://twitter.com/ncb0_" class="plain"><img src="/assets/symbols/twitter.svg" alt="Twitter" class="icon"/></a>
+    <a target="_blank" href="https://instagram.com/ncb0_" class="plain"><img src="/assets/symbols/instagram.svg" alt="Instagram" class="icon"/></a>
+    <a target="_blank" href="https://www.pixiv.net/en/users/63526507" class="plain"><img src="/assets/symbols/pixiv.svg" alt="Pixiv" class="icon"></a>
+    <a target="_blank" href="https://patreon.com/nezita" class="plain"><img src="/assets/symbols/patreon.svg" alt="Patreon" class="icon"/></a>
+    <a target="_blank" href="https://ko-fi.com/nezita" class="plain"><img src="/assets/symbols/kofi.svg" alt="Ko-fi" class="icon"/></a>
+    <a target="_blank" href="https://nezita.itch.io" class="plain"><img src="/assets/symbols/itchio.svg" alt="Itch.io" class="icon"/></a>
   </div>
 
   <!-- <div style="margin-bottom: 2em">
-    <h1 style="margin-bottom: 0">
-      blog.
-    </h1>
-    {% assign sorted = site.posts | sort: "date" | reverse %}
-    {% for post in sorted %}
-      <div>
-        <div>
-          <h4>
-            <a href="{{ post.url }}" style="margin-bottom: 0;">({{ post.date | date: "%Y %m %d" }})</a>
-          </h4>
-        </div>
-        <div style="margin-left: 1.25em;">
-          <p><i>{{ post.excerpt | strip_html }}</i></p>
-        </div>
-      </div>
-    {% endfor %}
+    <h3 style="margin-bottom: 0">Notice: Awaiting nezu.world@2.0.</h3>
   </div> -->
 
-  <!-- <h2><a href="/about.html">who?</a></h2> -->
-
-  <!-- social -->
-  <div>
+  <!-- <div>
     <h3>
       Elsewhere: <a target="_blank" href="https://twitter.com/ncb0_">Twitter</a>, <a target="_blank" href="https://instagram.com/ncb0_">Instagram</a>, <a target="_blank" href="https://www.pixiv.net/en/users/63526507">Pixiv</a>, <a target="_blank" href="https://conejobeat.com">conejobeat.com</a>.
     </h3>
-  </div>
+  </div> -->
 
-  <div>
+  <!-- <div>
     <h3>
       Support me: <a target="_blank" href="https://patreon.com/nezita">Patreon</a>, <a target="_blank" href="https://nezita.itch.io/">Itch.io</a>, <a target="_blank" href="http://ko-fi.com/nezita">Ko-fi</a>.
     </h3>
-  </div>
+  </div> -->
 
   <!-- contact -->
-  <div>
+  <!-- <div>
     <h3>Forward complaints: <a href="mailto:mel@nezu.world">mel@nezu.world</a>, <a href="http://discord.com/users/272803229274996737">nezu#8000</a>.</h3>
-    <!-- <ul class="links">
-      <li><a class="external2" href="mailto:mel@ncb0.work">mel@ncb0.work</a> </li>
-      <li><a class="external2" href="http://discord.com/users/272803229274996737">nezu#8000</a> </li>
-    </ul> -->
-  </div>
+  </div> -->
 
   <!-- tags -->
   <div id="alltags">

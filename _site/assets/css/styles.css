@@ -60,6 +60,8 @@ body { width: 100vw; overflow-x: hidden; z-index: 10; min-height: 100vh; backgro
 
 .txtfill { fill: #7c3e52; }
 
+.icon { display: inline-block; height: 1em; vertical-align: -18%; padding: 0; margin: 0; }
+
 h1 { font: 700 3em/0.9 "Helvetica", Arial, sans-serif; letter-spacing: -1px; }
 
 h2 { font: 700 2em/1 "Helvetica", Arial, sans-serif; letter-spacing: -0.5px; }
@@ -137,7 +139,11 @@ h1 + figure, h2 + figure, h3 + figure, figure.float { margin-top: 0; }
 
 .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); grid-gap: 8px; justify-content: left; margin-bottom: 4px; }
 
-.portfolio-item { border: 1px dashed #7c3e52; padding: 6px 6px 3px; }
+.portfolio-item { border: 1px solid #7c3e52; padding: 6px 6px 3px; position: relative; z-index: 0; }
+
+a:hover .portfolio-item .dogear { display: block; }
+
+.dogear { background-image: url(/assets/ui/dogear.svg); display: none; width: 16px; height: 16px; position: absolute; right: -1px; top: -1px; }
 
 .portfolio-img { background-color: none; background-position: top center; background-size: cover; background-repeat: no-repeat; }
 

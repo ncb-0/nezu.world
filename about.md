@@ -5,27 +5,17 @@ short: "About"
 name: "About"
 ---
 
-<!-- ## i’m MEL a canadian artist girl outa toronto making my first MANGA… 😊 play DJ… tweak bezier curve… take too much ADHDmeds… -->
-
 <figure class="float right">
   <img src="{{ site.baseurl }}/assets/img/lisa.jpg">
 </figure>
 
 <!-- ### who? -->
 
-im LISA… aka dj nezu, nezita, ncb0… fka frogheck, sb int’l, etc. if you know me as MEL thats chill too.
+yo. i'm lisa. you might also know me as mel, ncb0, nezu, etc. i'm a multidisciplinary artist from toronto. my work spans [digital art]({{ site.baseurl }}/tag/art), [graphic design]({{ site.baseurl }}/tag/design), [type design]({{ site.baseurl }}/tag/type), [creative writing]({{ site.baseurl }}/tag/writing), [dj]({{ site.baseurl }}/tag/dj), whatever. i'm cute and i do a little bit of everything.
 
-obligatory “she/her” goes here. ive legit believed tht im a robot since i was 7, but if i had to pick a kin animal itd be mouse or ferret. i love you.
+## Contact
 
-### cut the bs…
-
-im a multidisciplinary artist outta toronto. my work spans [digital art]({{ site.baseurl }}/tag/art), [graphic design]({{ site.baseurl }}/tag/design), [type design]({{ site.baseurl }}/tag/type), [creative writing]({{ site.baseurl }}/tag/writing), [dj]({{ site.baseurl }}/tag/dj), whatever. im constantly learning shit—so expect my output to be all over the place.
-
-if u wanna say hi, best place to hit me up is discord, @nezu#8000. i probably wont respond unless u send me real dope shit o si tu mensajeame en español. 😜
-
-take everything i say as 100% serious.
-
-#dj #party #vibe #club #cool #music #dekbass #adderall
+if you'd like to work with me or say hi, email me at [mel@nezu.world](mailto:mel@nezu.world) or message nezu#8000 on discord. i am *not* taking art commissions at the moment, but i am always accepting freelance work.
 
 <hr style="clear:none" />
 
@@ -33,13 +23,13 @@ take everything i say as 100% serious.
 
 <!-- ## nezu.world -->
 
-**&lt;/&gt; with <3 by lisa m. (c) 2023.**
+**&lt;/&gt; WITH <3 BY LISA M (C) 2023.**
 
-#### fonts
+#### Fonts
 - Helvetica
 - [Fragment Mono](https://github.com/weiweihuanghuang/fragment-mono) (Modified)
 
-#### tools
+#### Tools
 - Visual Studio Code
 - Adobe Illustrator CC 2021
 - Clip Studio Paint
