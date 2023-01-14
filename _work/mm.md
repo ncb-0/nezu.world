@@ -10,7 +10,7 @@ cover: mm-comic.jpg
 
 <!-- #### A clueless android goes to work for the very company that built her. -->
 
-An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DPI OekakiVision™. My passion project since early 2017. Chapters i & ii are available to read below. Chapters iii & onwards are being released exclusively on [Patreon](http://patreon.com/nezita)&nbsp;— for now.
+An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DPI OekakiVision™. My passion project since early 2017. Chapters i & ii are available to read below. Chapters iii & onwards are being released exclusively on [Patreon](http://patreon.com/nezita)—for now.
 
 <!-- ### preview -->
 
