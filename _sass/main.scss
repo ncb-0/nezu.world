@@ -1,4 +1,4 @@
-@use "sass.color";
+// @use "sass.color";
 
 $bg: #fff;
 // $tx: #28348a;
@@ -145,7 +145,7 @@ body {
 
 #content-wide {
   width: 100vw;
-  max-width: calc(100vw - 100px);
+  max-width: calc(100vw - 115px);
   padding: 3.25em 6px;
 }
 
@@ -170,8 +170,11 @@ body {
   // grid-template-columns: 0 1fr;
   grid-template-columns: 2.5em 1fr;
   padding: 2px 6px 3px;
-  max-width: $cwidth;
-  background: $bg;
+  // max-width: $cwidth;
+  max-width: calc(100vw - 115px);
+  background: rgba($bg,.9);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
   // margin: 0 auto;
   // max-width: $cwidth;
   h6 {

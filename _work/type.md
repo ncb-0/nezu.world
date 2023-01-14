@@ -74,7 +74,7 @@ Non-rounded variant.
     <div><input class="slider" type="range" min="6" max="192" value="56" /></div>
   </div>
   <div class="typetester">
-    <h1 class="pico-a tester w500" contenteditable="true">
+    <h1 class="pico-a tester w500" style="font-size:56px" contenteditable="true">
       
     </h1> 
   </div>
@@ -105,7 +105,7 @@ Rounded variant.
     <div><input class="slider" type="range" min="6" max="192" value="56" /></div>
   </div>
   <div class="typetester">
-    <h1 class="pico-b tester w500" contenteditable="true">
+    <h1 class="pico-b tester w500" style="font-size:56px" contenteditable="true">
       
     </h1> 
   </div>
@@ -134,7 +134,7 @@ My first typeface, formerly known as "sb-spec" and "sb-studio".
     <div><input class="slider" type="range" min="6" max="192" value="56" /></div>
   </div>
   <div class="typetester">
-    <h1 class="spec tester w400" contenteditable="true">
+    <h1 class="spec tester w400" style="font-size:56px" contenteditable="true">
       
     </h1> 
   </div>
