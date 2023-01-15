@@ -1,10 +1,11 @@
 ---
 layout: default
+title: {{ page.tag }}
 ---
 
 <div id="content-wide">
   {% assign rawtags = "" %}
-  {% for item in site.work %}
+  {% for item in site.documents %}
     {% assign ttags = item.tags | join:'|' | append:'|' %}
     {% assign rawtags = rawtags | append:ttags %}
   {% endfor %}
@@ -24,7 +25,7 @@ layout: default
 
   <h1>#{{ page.tag }}</h1>
   <ul style="margin-bottom: 2em">
-    {% for item in site.work %}
+    {% for item in site.documents %}
       {% if item.tags contains page.tag %}
         <li>
           <a href="{{ item.url }}">{{ item.title }}</a>

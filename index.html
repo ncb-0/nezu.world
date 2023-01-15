@@ -39,16 +39,18 @@ tag: wip
       <div class="portfolio-grid">
         {% assign sorted = site.work | sort: "date" | reverse %}
         {% for item in sorted %}
-          <a href="{{ item.url }}" class="plain">
-            <div class="portfolio-item">
-              <div class="portfolio-img"
-                  style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item.cover }}')">
+          {% if item.category == "main" %}
+            <a href="{{ item.url }}" class="plain">
+              <div class="portfolio-item">
+                <div class="portfolio-img"
+                    style="background-image:url('{{ site.baseurl }}/assets/cover/{{ item.cover }}')">
+                </div>
+                <h5 style="text-align:left">{{ item.short }}</h5>
+                <!-- <p><a href="{{ item.url }}">{{ item.short }}</a></p> -->
+                <div class="dogear"></div>
               </div>
-              <h5 style="text-align:left">{{ item.short }}</h5>
-              <!-- <p><a href="{{ item.url }}">{{ item.short }}</a></p> -->
-              <div class="dogear"></div>
-            </div>
-          </a>
+            </a>
+          {% endif %}
         {% endfor %}
       </div>
     </div>

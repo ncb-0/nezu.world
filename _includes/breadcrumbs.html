@@ -7,12 +7,12 @@
       {% endif %}
       {% for crumb in crumbs offset: 1 %}
         {% if forloop.last %}
-          {% if page.year %}
+          <!-- {% if page.year %}
             / {{ page.year }}  
-          {% endif %}
-          {% if page.collection != "art" %}
-            / {{ page.name | remove: ".md" }} <br>
-          {% endif %}
+          {% endif %} -->
+          
+          / {{ page.name | remove: ".md" }} <br>
+          
           {% assign alltags = page.tags %}
           {% for tag in alltags %}
             <a class="clean" href="{{ site.baseurl }}/tag/{{ tag }}.html">#{{tag}}</a>
