@@ -11,14 +11,14 @@
             / {{ page.year }}  
           {% endif %} -->
           
-          / {{ page.name | remove: ".md" }} <br>
+          / {{ page.name | remove: ".md" | downcase}} <br>
           
           {% assign alltags = page.tags %}
           {% for tag in alltags %}
             <a class="clean" href="{{ site.baseurl }}/tag/{{ tag }}.html">#{{tag}}</a>
           {% endfor %}
         {% else %}
-          / {{ crumb | replace:'-',' ' | remove:'.html'}}
+          / {{ crumb | replace:'-',' ' | remove:'.html' | downcase }}
         {% endif %}
       {% endfor %}
   </h6>
