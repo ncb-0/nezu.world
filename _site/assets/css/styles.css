@@ -464,6 +464,10 @@ hr {
   width: 100%;
 }
 
+.tester {
+  line-height: 1;
+}
+
 .trow {
   display: grid;
   grid-template-columns: 100px 100px 1fr;
