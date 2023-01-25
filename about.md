@@ -15,7 +15,7 @@ yo. i'm lisa. you might also know me as mel, ncb0, nezu, etc. i'm a multidiscipl
 
 ## Contact
 
-if you'd like to work with me or say hi, email me at [mel@nezu.world](mailto:mel@nezu.world) or message nezu#8000 on discord. i am *not* taking art commissions at the moment, but i am always accepting freelance work.
+if you'd like to work with me or say hi, email me at [mel@nezu.world](mailto:mel@nezu.world) or message nezu#3502 on discord. i am *not* taking art commissions at the moment, but i am always accepting freelance work.
 
 <hr style="clear:none" />
 
