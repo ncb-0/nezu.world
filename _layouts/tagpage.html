@@ -13,14 +13,14 @@ title: {{ page.tag }}
 
   {% assign site.tags = "" %}
   {% for tag in rawtags %}
-    {% if tag != "" %}
+    {% unless tag == "" %}
       {% if tags == "" %}
         {% assign tags = tag | split:'|' %}
       {% endif %}
       {% unless tags contains tag %}
         {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
       {% endunless %}
-    {% endif %}
+    {% endunless %}
   {% endfor %}
 
   <h1>#{{ page.tag }}</h1>
@@ -38,7 +38,9 @@ title: {{ page.tag }}
     <h6>
       {% assign taglist = rawtags | uniq %}
       {% for tag in taglist %}
-        <a class="tag" href="{{ site.baseurl }}/tag/{{ tag }}.html">{{tag}}</a>
+        {% unless tag == "" %}
+          <a class="tag" href="{{ site.baseurl }}/tag/{{ tag }}.html">{{tag}}</a>
+        {% endunless %}
       {% endfor %}
     </h6>
   </div>

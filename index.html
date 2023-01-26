@@ -116,7 +116,9 @@ tag: wip
     <h6>
       {% assign taglist = rawtags | uniq %}
       {% for tag in taglist %}
-        <a class="tag" href="{{ site.baseurl }}/tag/{{ tag }}.html">{{tag}}</a>
+        {% unless tag == "" %}
+          <a class="tag" href="{{ site.baseurl }}/tag/{{ tag }}.html">{{tag}}</a>
+        {% endunless %}
       {% endfor %}
     </h6>
   </div>
