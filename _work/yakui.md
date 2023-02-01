@@ -868,6 +868,6 @@ A vast digital space in which clouds of infinitely small points guide weightless
 #### Fonts
 - sb-telecom (obsolete, unreleased)
 
-#### Fools
+#### Tools
 - Blender 2.79
 - Adobe Illustrator CC
