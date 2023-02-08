@@ -56,7 +56,7 @@ The screening posters were the culmination of the style I began developing with 
 
 ## Overdose safety informational postcards (Unofficial)
 
-Just to flex—all type on this is set in a font I designed myself, and the syringe needle on the front leads perfectly into the bullet point on the back—if you were to somehow unfold a single sheet of card\.\.\.
+Just to flex—all type on this is set in a font I designed myself, and the syringe needle on the front leads perfectly into the bullet point on the back—if you were to somehow unfold a single sheet of card…
 
 <figure>
   <div class="img2">
