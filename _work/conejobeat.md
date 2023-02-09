@@ -2,7 +2,7 @@
 title: "CONEJOBEAT"
 short: "CONEJOBEAT"
 name: "CONEJOBEAT"
-tags: [conejobeat, net, collective, second-life, event, dj, music, with-others, 2020, 2021, 2022, ongoing]
+tags: [conejobeat, net, collective, second-life, event, dj, music, with-others, 2020, 2021, 2022, 2023, ongoing]
 year: 2020–
 date: 2022-11-26
 cover: wafa-nezu-holy.jpg
