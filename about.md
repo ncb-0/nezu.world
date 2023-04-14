@@ -23,11 +23,12 @@ if you'd like to work with me or say hi, email me at [mel@nezu.world](mailto:mel
 
 <!-- ## nezu.world -->
 
-**&lt;/&gt; WITH <3 BY LISA M (C) 2023.**
+&lt;/&gt; WITH <3 BY LISA M (C) 2023.
 
 #### Fonts
 - Helvetica
-- [Fragment Mono](https://github.com/weiweihuanghuang/fragment-mono) (Modified)
+- tm-lagrange-mono (top secret…!)
+<!-- - [Fragment Mono](https://github.com/weiweihuanghuang/fragment-mono) (Modified) -->
 
 #### Tools
 - Visual Studio Code

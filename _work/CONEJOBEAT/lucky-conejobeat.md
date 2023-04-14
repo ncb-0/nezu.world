@@ -11,7 +11,7 @@ category: conejobeats
 
 26 Feb 2021—celebrating the Year of the Ox.
 
-**[Full video recording…](https://www.youtube.com/watch?v=EKG9sqh2Hdc)** * Note: Due to copyright, the video cannot be embedded.
+[Full video recording…](https://www.youtube.com/watch?v=EKG9sqh2Hdc) * Note: Due to copyright, the video cannot be embedded.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/img/lcb.jpg">

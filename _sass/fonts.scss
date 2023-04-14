@@ -6,14 +6,12 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: "NEZUMONO";
   src: url("/assets/fonts/NEZUMONO/NEZUMONO-Italic.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
 }
-
 @font-face {
   font-family: "NEZUMONO";
   src: url("/assets/fonts/NEZUMONO/NEZUMONO-Bold.woff2") format("woff2");
@@ -21,35 +19,17 @@
   font-style: normal;
 }
 
-// Fragment Mono
+// Lagrange Mono
 
 @font-face {
-  font-family: "FragmentMono";
-  src: url("/assets/fonts/FragmentMono/FragmentMono-Regular.woff2") format("woff2"),
-       url("/assets/fonts/FragmentMono/FragmentMono-Regular.ttf") format("truetype");
+  font-family: "LagrangeMono";
+  src: url("/assets/fonts/LagrangeMono/LagrangeMono-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
-  font-feature-settings: "ss02";
-}
-@font-face {
-  font-family: "FragmentMono";
-  src: url("/assets/fonts/FragmentMono/FragmentMono-Italic.woff2") format("woff2"),
-       url("/assets/fonts/FragmentMono/FragmentMono-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "ss02";
 }
 
+// Helvetica
 
-// Helvetica & Helvetica Mono
-
-@font-face {
-  font-family: "HelveticaMono";
-  src: url("/assets/fonts/HelveticaMono/HelveticaMono.woff2") format("woff2"),
-       url("/assets/fonts/HelveticaMono/HelveticaMono.woff") format("woff"),
-       url("/assets/fonts/HelveticaMono/HelveticaMono.ttf") format("truetype");
-  font-weight: 400;
-}
 @font-face {
   font-family: "Helvetica";
   src: url("/assets/fonts/Helvetica/HelveticaBold.woff2") format("woff2"),

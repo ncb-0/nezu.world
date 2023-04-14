@@ -1,7 +1,7 @@
 ---
-title: "DollHouse"
-short: "DollHouse"
-name: "DollHouse"
+title: "DOLLHOUSE"
+short: "DOLLHOUSE"
+name: "DOLLHOUSE"
 tags: [irl, digital, design, art, music, dj, for-others, 2022, ongoing]
 year: 2022
 date: 2022-03-26
@@ -16,13 +16,9 @@ cover: dollhouse-flyer.jpg
   <figcaption>DJ NEZU in the flesh</figcaption>
 </figure>
 
-DollHouse is a high-BPM hardcore PLUR rave run by T4T lesbian DJs [dustBunny](https://soundcloud.com/xxdustbunnyxy) and [Cherry Chip](https://soundcloud.com/christiearson). Pulled that near-verbatim from [their Instagram](https://www.instagram.com/dollhouse4ever/), because I couldn't describe it better myself. :P
-
-It feels like an IRL version of [CONEJOBEAT](/work/conejobeat)… nearly everyone is queer and we all have diverse tastes for underground music and fashion.
+[DOLLHOUSE](https://www.instagram.com/dollhouse4ever/) is (was?) a high-BPM hardcore PLUR rave run by Toronto DJs [dustBunny](https://soundcloud.com/xxdustbunnyxy) and [Cherry Chip](https://soundcloud.com/christiearson).
 
 ## Flyer (March 2021)
-
-As a graphic designer, I'm very literal. So, when I was asked to design a flyer for a cute rave called "DOLLHOUSE", well, the result explains itself. It's a dollhouse full of dancing animals. 🍵
 
 <figure>
   <img src="{{ site.baseurl }}/assets/img/dollhouse-flyer.jpg">

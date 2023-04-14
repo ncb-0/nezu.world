@@ -6,8 +6,7 @@ $tx: #7c3e52;
 $hi: #ff8;
 
 $sans: "Helvetica", Arial, sans-serif;
-$mono: "NEZUMONO", "Fragment Mono", Menlo, Consolas, monospace;
-
+$mono: "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
 
 $tm-mega: "Mega", sans-serif;
 $tm-pico-a: "PicoA", sans-serif;
@@ -81,10 +80,11 @@ $cwide: 1000px;
   // clear: both;
   // color: $tx;
   font-feature-settings: none;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  // -ms-overflow-style: none;  /* IE and Edge */
+  // scrollbar-width: none;  /* Firefox */
   // text-shadow: 0 0 .2em rgba($tx,0.5)
   hyphens: auto;
+  font-style: normal;
 }
 
 *::selection {
@@ -234,8 +234,10 @@ h3 {
 
 h4 {
   // font: 700 1.2em/1 $sans;
-  font: 700 1em/1 $mono;
+  font: 400 1em/1 $mono;
+  // font: 700 1em/1 "NEZUMONO";
   // margin-bottom: 0.5em;
+  text-transform: uppercase;
 }
 
 p, li, h5, hr::before {

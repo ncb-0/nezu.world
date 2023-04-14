@@ -11,7 +11,7 @@ category: conejobeats
 
 11 Dec 2021—The LOVEMETER finally reaches 100% and CONEJO ascends to heaven.
 
-**[Full video recording…](https://www.youtube.com/watch?v=pl7kV1BxbaI)** * Note: Due to copyright, the video cannot be embedded.
+[Full video recording…](https://www.youtube.com/watch?v=pl7kV1BxbaI) * Note: Due to copyright, the video cannot be embedded.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/img/wafa-nezu-holy.jpg">

@@ -60,9 +60,8 @@
   margin: 0;
   box-sizing: border-box;
   font-feature-settings: none;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
   hyphens: auto;
+  font-style: normal;
 }
 
 *::selection {
@@ -183,15 +182,16 @@ h3 {
 }
 
 h4 {
-  font: 700 1em/1 "NEZUMONO", "Fragment Mono", Menlo, Consolas, monospace;
+  font: 400 1em/1 "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
+  text-transform: uppercase;
 }
 
 p, li, h5, hr::before {
-  font: 1em/1.3 "NEZUMONO", "Fragment Mono", Menlo, Consolas, monospace;
+  font: 1em/1.3 "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
 }
 
 h6, figcaption {
-  font: 0.75em/1.2 "NEZUMONO", "Fragment Mono", Menlo, Consolas, monospace;
+  font: 0.75em/1.2 "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
 }
 
 ul {
@@ -490,7 +490,7 @@ select {
   border-radius: 5px;
   width: 90px;
   background: none !important;
-  font: 400 14px/1.2 "NEZUMONO", "Fragment Mono", Menlo, Consolas, monospace;
+  font: 400 14px/1.2 "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
   color: #7c3e52;
   cursor: pointer;
 }
@@ -551,7 +551,7 @@ select {
   line-height: 0;
   cursor: pointer;
   display: none;
-  font: 700 14px/1.3 "NEZUMONO", "Fragment Mono", Menlo, Consolas, monospace;
+  font: 700 14px/1.3 "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
   padding: 2em 6px;
 }
 
@@ -683,23 +683,10 @@ select {
   font-style: normal;
 }
 @font-face {
-  font-family: "FragmentMono";
-  src: url("/assets/fonts/FragmentMono/FragmentMono-Regular.woff2") format("woff2"), url("/assets/fonts/FragmentMono/FragmentMono-Regular.ttf") format("truetype");
+  font-family: "LagrangeMono";
+  src: url("/assets/fonts/LagrangeMono/LagrangeMono-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
-  font-feature-settings: "ss02";
-}
-@font-face {
-  font-family: "FragmentMono";
-  src: url("/assets/fonts/FragmentMono/FragmentMono-Italic.woff2") format("woff2"), url("/assets/fonts/FragmentMono/FragmentMono-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "ss02";
-}
-@font-face {
-  font-family: "HelveticaMono";
-  src: url("/assets/fonts/HelveticaMono/HelveticaMono.woff2") format("woff2"), url("/assets/fonts/HelveticaMono/HelveticaMono.woff") format("woff"), url("/assets/fonts/HelveticaMono/HelveticaMono.ttf") format("truetype");
-  font-weight: 400;
 }
 @font-face {
   font-family: "Helvetica";

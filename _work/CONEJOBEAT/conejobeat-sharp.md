@@ -11,7 +11,7 @@ category: conejobeats
 
 26 Nov 2022—After nearly a year's hiatus, CONEJOBEAT is back—and looking sharp~
 
-**[Full video recording…](https://drive.google.com/file/d/1t6xyC6o1lCgvdM032VAmdSVqMXMiqDpP/view?usp=sharing)** * Note: Due to copyright, the video cannot be embedded.
+[Full video recording…](https://drive.google.com/file/d/1t6xyC6o1lCgvdM032VAmdSVqMXMiqDpP/view?usp=sharing) * Note: Due to copyright, the video cannot be embedded.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/img/sharpvenue.jpg">
