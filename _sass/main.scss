@@ -6,7 +6,7 @@ $tx: #7c3e52;
 $hi: #ff8;
 
 $sans: "Helvetica", Arial, sans-serif;
-$mono: "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
+$mono: "NEZUMONO", Menlo, Consolas, monospace;
 
 $tm-mega: "Mega", sans-serif;
 $tm-pico-a: "PicoA", sans-serif;
@@ -84,7 +84,7 @@ $cwide: 1000px;
   // scrollbar-width: none;  /* Firefox */
   // text-shadow: 0 0 .2em rgba($tx,0.5)
   hyphens: auto;
-  font-style: normal;
+  // font-style: normal;
 }
 
 *::selection {

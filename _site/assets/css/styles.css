@@ -61,7 +61,6 @@
   box-sizing: border-box;
   font-feature-settings: none;
   hyphens: auto;
-  font-style: normal;
 }
 
 *::selection {
@@ -182,16 +181,16 @@ h3 {
 }
 
 h4 {
-  font: 400 1em/1 "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
+  font: 400 1em/1 "NEZUMONO", Menlo, Consolas, monospace;
   text-transform: uppercase;
 }
 
 p, li, h5, hr::before {
-  font: 1em/1.3 "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
+  font: 1em/1.3 "NEZUMONO", Menlo, Consolas, monospace;
 }
 
 h6, figcaption {
-  font: 0.75em/1.2 "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
+  font: 0.75em/1.2 "NEZUMONO", Menlo, Consolas, monospace;
 }
 
 ul {
@@ -490,7 +489,7 @@ select {
   border-radius: 5px;
   width: 90px;
   background: none !important;
-  font: 400 14px/1.2 "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
+  font: 400 14px/1.2 "NEZUMONO", Menlo, Consolas, monospace;
   color: #7c3e52;
   cursor: pointer;
 }
@@ -551,7 +550,7 @@ select {
   line-height: 0;
   cursor: pointer;
   display: none;
-  font: 700 14px/1.3 "LagrangeMono", "NEZUMONO", Menlo, Consolas, monospace;
+  font: 700 14px/1.3 "NEZUMONO", Menlo, Consolas, monospace;
   padding: 2em 6px;
 }
 
