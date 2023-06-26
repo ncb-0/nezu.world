@@ -8,7 +8,9 @@ date: 2021-11-29
 cover: mutant.jpg
 ---
 
-Artwork for the sixth installment of [Mutants Mixtape](https://mutants1000000.bandcamp.com/), an online collective curating art and music for charity. MM has featured many notable artists including Arca, Matmos, Kai Whiston, Emamouse and more. [Buy MM6](https://mutants1000000.bandcamp.com/album/mutants-vol-6-home)
+Artwork for the sixth installment of [Mutants Mixtape](https://mutants1000000.bandcamp.com/), an online collective curating art and music for charity. MM has featured many notable artists including Arca, Matmos, Kai Whiston, Emamouse and more.
+
+<a class="clean button" href="https://mutants999999.bandcamp.com/album/mutants-vol-6-home">Buy MM6</a>
 
 <figure>
   <img src="{{ site.baseurl }}/assets/img/mm6.jpg" style="margin-top:0">

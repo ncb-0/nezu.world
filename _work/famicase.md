@@ -28,7 +28,9 @@ cover: ming.jpg
 
 [My Famicase Exhibition](http://famicase.com/) is an annual exhibition hosted by [METEOR.](https://super-meteor.com/) Around 250 participants create Famicom game cartridge labels, which are then printed and displayed in a gallery in Tokyo, and printed in a catalog book.
 
-Entry description: *mingOS is a cartridge based operating system for Ming robots. Advanced AI gives Ming robots a high degree of intelligence unmatched by any competitor. mingOS 9.1 is compatible with Pico robots, mark 3 or later. Copyright Ming Systems Inc., 2099.* [View entry](https://famicase.com/20/softs/096.html)
+Entry description: *mingOS is a cartridge based operating system for Ming robots. Advanced AI gives Ming robots a high degree of intelligence unmatched by any competitor. mingOS 9.1 is compatible with Pico robots, mark 3 or later. Copyright Ming Systems Inc., 2099.*
+
+<a class="clean button" href="https://famicase.com/20/softs/096.html">View Entry</a>
 
 * * *
 

@@ -181,8 +181,7 @@ h3 {
 }
 
 h4 {
-  font: 400 1em/1 "NEZUMONO", Menlo, Consolas, monospace;
-  text-transform: uppercase;
+  font: 700 1em/1 "NEZUMONO", Menlo, Consolas, monospace;
 }
 
 p, li, h5, hr::before {
@@ -268,6 +267,18 @@ a.clean, a.tag {
 a.clean:hover, a.tag:hover {
   color: #fff;
   background: #7c3e52;
+}
+
+a.button {
+  background: #fff;
+  color: #7c3e52;
+  border: 2px solid #7c3e52;
+  padding: 1px 4px 0;
+  margin: 4px 0;
+  font-weight: 700;
+  font-size: 1.5em;
+  font-family: "NEZUMONO", Menlo, Consolas, monospace;
+  display: inline-block;
 }
 
 blockquote {

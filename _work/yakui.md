@@ -8,7 +8,9 @@ date: 2019-08-02
 # cover: yakuicd1.jpg
 cover: imni.jpg
 ---
-Album artwork for [Imni by Yakui.](http://eatdis.bandcamp.com/album/imni)
+Album artwork for Yakui—Imni.
+
+<a class="clean button" href="https://eatdis.bandcamp.com/album/imni">Buy Album</a>
 
 <figure>
   <img src="{{ site.baseurl }}/assets/img/imni.jpg">

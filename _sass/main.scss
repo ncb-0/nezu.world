@@ -234,10 +234,10 @@ h3 {
 
 h4 {
   // font: 700 1.2em/1 $sans;
-  font: 400 1em/1 $mono;
+  font: 700 1em/1 $mono;
   // font: 700 1em/1 "NEZUMONO";
   // margin-bottom: 0.5em;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 p, li, h5, hr::before {
@@ -339,6 +339,18 @@ a.clean, a.tag {
 a.clean:hover, a.tag:hover {
   color: $bg;
   background: rgba($tx,1);
+}
+
+a.button {
+  background: $bg;
+  color: $tx;
+  border: 2px solid $tx;
+  padding: 1px 4px 0;
+  margin: 4px 0;
+  font-weight: 700;
+  font-size: 1.5em;
+  font-family: $mono;
+  display: inline-block;
 }
 
 blockquote {

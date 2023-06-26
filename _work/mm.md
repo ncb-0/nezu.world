@@ -14,9 +14,13 @@ An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DP
 
 <!-- ### preview -->
 
-<h3 style="margin-bottom:2em">
+<!-- <h3 style="margin-bottom:2em">
   <a style="font-style:normal" href="{{ site.baseurl }}/work/MM/mm-preview">Read chapters i & ii…</a>
-</h3>
+</h3> -->
+
+<p>
+  <a class="clean button" href="{{ site.baseurl }}/work/MM/mm-preview">Read Chapters I & II</a>
+</p>
 
 <figure>
   <img src="{{ site.baseurl }}/assets/img/mm5.jpg?v=2">
