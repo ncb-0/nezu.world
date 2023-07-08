@@ -258,7 +258,8 @@ h6, figcaption {
 
 ul {
   list-style-type: "* ";
-  margin-left: 1.25em;
+  // margin-left: 1.25em;
+  margin-left: 2ch;
   // list-style-position: inside;
 }
 
@@ -354,7 +355,7 @@ a.button {
 }
 
 blockquote {
-  padding-left: calc(1.85em - 4px);
+  padding-left: calc(3ch - 4px);
   // background: rgba($tx,0.1);
   // color: $bg;
   border-left: 4px solid rgba($tx,.15);
