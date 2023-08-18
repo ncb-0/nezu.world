@@ -30,7 +30,9 @@ cover: ming.jpg
 
 Entry description: *mingOS is a cartridge based operating system for Ming robots. Advanced AI gives Ming robots a high degree of intelligence unmatched by any competitor. mingOS 9.1 is compatible with Pico robots, mark 3 or later. Copyright Ming Systems Inc., 2099.*
 
-<a class="clean button" href="https://famicase.com/20/softs/096.html">View Entry</a>
+<h3>
+  <a target="_blank" href="https://famicase.com/20/softs/096.html" class="clean button"><img src="/assets/symbols/link.svg" class="icon"/> View Entry</a>
+</h3>
 
 * * *
 

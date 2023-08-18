@@ -11,9 +11,9 @@ cover: dll-uni.jpg
 I Die a Lovely Life (DLL) is a short visual novel I created for the [2022 VN Cup](http://visualnovel.neocities.org)—a competition to write the best yuri VN in under two weeks. DLL was awarded bronze. 
 
 <!-- [Download here.](http://nezita.itch.io/dll) -->
-<a class="clean button" href="http://nezita.itch.io/dll">
-  Download
-</a>
+<h3>
+  <a target="_blank" href="https://nezita.itch.io/dll" class="clean button"><img src="/assets/symbols/itchio.svg" class="icon"/> Download</a>
+</h3>
 
 ## Summary
 Long distance girlfriends Uni and Nuña are aching to meet, but neither of them can afford the plane tickets. Willing to do anything for money, Uni participates in a research study to have her brain uploaded into a computer… irreversibly?! Oops. But we can still hook up though, right? 😗

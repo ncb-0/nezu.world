@@ -10,13 +10,15 @@ cover: imni.jpg
 ---
 Album artwork for Yakui—Imni.
 
-<a class="clean button" href="https://eatdis.bandcamp.com/album/imni">Buy Album</a>
-
 <figure>
   <img src="{{ site.baseurl }}/assets/img/imni.jpg">
 </figure>
 
 A vast digital space in which clouds of infinitely small points guide weightless organic forms.
+
+<h3>
+  <a target="_blank" href="https://eatdis.bandcamp.com/album/imni" class="clean button"><img src="/assets/symbols/bandcamp.svg" class="icon"/> Buy</a>
+</h3>
 
 * * *
 

@@ -203,13 +203,6 @@ body {
   fill: $tx;
 }
 
-.icon {
-  display: inline-block;
-  height: 1em;
-  vertical-align: -18%;
-  padding: 0; margin: 0;
-}
-
 // text styles
 
 h1 {
@@ -343,15 +336,49 @@ a.clean:hover, a.tag:hover {
 }
 
 a.button {
-  background: $bg;
+  background: 
+    linear-gradient(
+      to bottom,
+      rgba($tx, 0)    33%,
+      rgba($tx, 0.2)  100%
+    ), $bg;
   color: $tx;
-  border: 2px solid $tx;
-  padding: 1px 4px 0;
+  border: 1px solid rgba($tx, 0.5);
+  border-radius: 6px;
+  padding: 2px 4px;
   margin: 4px 0;
-  font-weight: 700;
-  font-size: 1.5em;
-  font-family: $mono;
+  // font-weight: 700;
+  // font-size: 1.5em;
+  // font-family: $sans;
   display: inline-block;
+}
+
+a.button:hover {
+  background: 
+    linear-gradient(
+      to top,
+      rgba($tx, 0.2)  33%,
+      rgba($tx, 0.4)  100%
+    ), $bg;
+  color: $tx;
+}
+
+.icon, .material-symbols-sharp {
+  display: inline-block;
+  height: 1em;
+  font-size: inherit;
+  // transform: scale(1.125);
+  vertical-align: -18%;
+  // vertical-align:text-bottom;
+  padding: 0; margin: 0;
+}
+
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 20;
 }
 
 blockquote {

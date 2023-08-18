@@ -8,7 +8,7 @@ date: 2020-01-25
 cover: type.jpg
 ---
 
-I design fonts! None of these are "officially" available to purchase, but if you're interested in licensing them anyway, shoot me an email: [mel@nezu.world](mailto:mel@nezu.world)
+I design fonts! None of these are "officially" available to purchase, but if you're interested in licensing them anyway, shoot me an email: [hello@nezu.world](mailto:hello@nezu.world)
 
 * * *
 

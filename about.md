@@ -11,11 +11,23 @@ name: "About"
 
 <!-- ### who? -->
 
-yo. i'm lisa. you might also know me as mel, ncb0, nezu, etc. i'm a multidisciplinary artist from toronto. my work spans [digital art]({{ site.baseurl }}/tag/art), [graphic design]({{ site.baseurl }}/tag/design), [type design]({{ site.baseurl }}/tag/type), [creative writing]({{ site.baseurl }}/tag/writing), [dj]({{ site.baseurl }}/tag/dj), whatever. i'm cute and i do a little bit of everything.
+yo. i'm lisa. (she/her) i'm a multidisciplinary artist from toronto. my work spans [digital art]({{ site.baseurl }}/tag/art), [graphic design]({{ site.baseurl }}/tag/design), [type design]({{ site.baseurl }}/tag/type), [creative writing]({{ site.baseurl }}/tag/writing), [dj]({{ site.baseurl }}/tag/dj), whatever. i'm cute and i do a little bit of everything.
+
+you might also know me as mel, ncb0, nezu, etc.
+
+## Availability
+
+i do not take art commissions. meaning, unfortunately, no, i will not draw your fursona. sorry! i'm a busy lady.
+
+however—i *am* available for freelance work. i'm down to do album covers, logos, websites, custom type, whatever. hit me up. #business
 
 ## Contact
 
-if you'd like to work with me or say hi, email me at [mel@nezu.world](mailto:mel@nezu.world) or message @nezuzu on discord. i am *not* taking art commissions at the moment, but i am always accepting freelance work.
+please reach me by email if you'd like to…
+
+- work with me: [business@nezu.world](mailto:business@nezu.world)
+- license my fonts: [fonts@nezu.world](mailto:fonts@nezu.world)
+- say hello: [hello@nezu.world](mailto:hello@nezu.world)
 
 <hr style="clear:none" />
 
