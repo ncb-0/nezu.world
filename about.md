@@ -19,7 +19,7 @@ you might also know me as mel, ncb0, nezu, etc.
 
 i do not take art commissions. meaning, unfortunately, no, i will not draw your fursona. sorry! i'm a busy lady.
 
-however—i *am* available for freelance work. i'm down to do album covers, logos, websites, custom type, whatever. hit me up. #business
+however—i _am_ available for freelance work. i'm down to do album covers, logos, websites, custom type, whatever. hit me up. #business
 
 ## Contact
 
@@ -35,14 +35,16 @@ please reach me by email if you'd like to…
 
 <!-- ## nezu.world -->
 
-&lt;/&gt; WITH <3 BY LISA M (C) 2023.
+&lt;/&gt; WITH <3 BY LISA M (C) 2024.
 
 #### Fonts
+
 - Helvetica
 <!-- - tm-lagrange-mono (top secret…!) -->
 - [Fragment Mono](https://github.com/weiweihuanghuang/fragment-mono) (Modified)
 
 #### Tools
+
 - Visual Studio Code
 - Adobe Illustrator CC 2021
 - Clip Studio Paint
