@@ -2,10 +2,26 @@
 title: "CONEJOBEAT"
 short: "CONEJOBEAT"
 name: "CONEJOBEAT"
-tags: [conejobeat, net, collective, second-life, event, dj, music, with-others, 2020, 2021, 2022, 2023, ongoing]
+tags:
+  [
+    conejobeat,
+    net,
+    collective,
+    second-life,
+    event,
+    dj,
+    music,
+    with-others,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    ongoing,
+  ]
 year: 2020–
-date: 2022-11-26
-cover: wafa-nezu-holy.jpg
+date: 2024-02-17
+cover: golden.jpg
 ---
 
 <figure class="float right">
@@ -21,7 +37,7 @@ A series of virtual raves hosted by [Sofa](http://yogurt200.com), myself, and th
 
 The [Conejo Committee](http://casaconejo.neocities.org) inhabits and maintains Conejo Island, a virtual commune in Second Life founded by my close friend [Sofa](http://yogurt200.com). The island is divided into several smaller parcels of land owned by different residents, each with their own unique flavour and decorations.
 
-* * *
+---
 
 ## Past events
 

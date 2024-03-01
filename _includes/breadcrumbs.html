@@ -2,9 +2,7 @@
   <h6>
     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
       <a class="clean" href="/">nezu.world</a>
-      {% if page.title == 'home' %}
-        <h6 style="padding-top: 0;"><a class="clean" href="/about.html">(c) Lisa M, 2024.</a></h6>
-      {% endif %}
+      
       {% for crumb in crumbs offset: 1 %}
         {% if forloop.last %}
           <!-- {% if page.year %}
@@ -21,5 +19,11 @@
           / {{ crumb | replace:'-',' ' | remove:'.html' | downcase }}
         {% endif %}
       {% endfor %}
+
+      {% if page.title == 'home' %}
+        <h6 style="padding-top: 0;"><a class="clean" href="/about.html">(c) Lisa M, 2024.</a></h6>
+      {% elsif page.title == 'About' %}
+        <h6 style="padding-top: 0;"><a class="clean" href="/about.html">(c) Lisa M, 2024.</a></h6>
+      {% endif %}
   </h6>
 </div>

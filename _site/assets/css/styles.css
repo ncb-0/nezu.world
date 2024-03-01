@@ -128,9 +128,7 @@ body {
   grid-template-columns: 2.5em 1fr;
   padding: 2px 6px 3px;
   max-width: calc(100vw - 115px);
-  background: rgba(255, 255, 255, 0.9);
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
+  background: white;
 }
 #nav h6 {
   margin: 0;
@@ -164,7 +162,8 @@ h2 {
   letter-spacing: -0.5px;
 }
 
-p ~ h2, p ~ h3 {
+p ~ h2,
+p ~ h3 {
   margin-top: 0.5em;
 }
 
@@ -173,23 +172,31 @@ h3 {
 }
 
 h4 {
-  font: 700 1em/1 "NEZUMONO", Menlo, Consolas, monospace;
+  font: 700 1em/1 "Nezu Fragment Gothic", Menlo, Consolas, monospace;
 }
 
-p, li, h5, hr::before {
-  font: 1em/1.3 "NEZUMONO", Menlo, Consolas, monospace;
+p,
+li,
+h5,
+hr::before {
+  font: 1em/1.3 "Nezu Fragment Gothic", Menlo, Consolas, monospace;
 }
 
-h6, figcaption {
-  font: 0.75em/1.2 "NEZUMONO", Menlo, Consolas, monospace;
+h6,
+figcaption {
+  font: 0.75em/1.2 "Nezu Fragment Gothic", Menlo, Consolas, monospace;
 }
 
 ul {
   list-style-type: "* ";
+}
+
+ul li {
   margin-left: 2ch;
 }
 
-p, li:last-of-type {
+p,
+li:last-of-type {
   margin-bottom: 0.5em;
 }
 
@@ -215,7 +222,8 @@ a.plain:hover {
   background: none;
 }
 
-a.plain::before, a.plain::after {
+a.plain::before,
+a.plain::after {
   content: none;
 }
 
@@ -250,13 +258,15 @@ a.clean::after {
   content: none !important;
 }
 
-a.clean, a.tag {
+a.clean,
+a.tag {
   font-style: normal;
   text-decoration: none;
   color: #7c3e52;
 }
 
-a.clean:hover, a.tag:hover {
+a.clean:hover,
+a.tag:hover {
   color: #fff;
   background: #7c3e52;
 }
@@ -276,7 +286,8 @@ a.button:hover {
   color: #7c3e52;
 }
 
-.icon, .material-symbols-sharp {
+.icon,
+.material-symbols-sharp {
   display: inline-block;
   height: 1em;
   font-size: inherit;
@@ -294,7 +305,12 @@ blockquote {
   border-left: 4px solid rgba(124, 62, 82, 0.15);
 }
 
-h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
   display: block;
   content: " ";
   margin-top: -2em;
@@ -310,7 +326,8 @@ figure {
   float: none;
   z-index: 1;
 }
-figure img, figure video {
+figure img,
+figure video {
   max-width: 100%;
   cursor: pointer;
 }
@@ -343,7 +360,8 @@ figure.float {
   margin-top: 0;
 }
 
-.img2, .img2m {
+.img2,
+.img2m {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 6px;
@@ -368,7 +386,8 @@ figure.float {
   margin-right: 0;
 }
 
-.img3, .img3m {
+.img3,
+.img3m {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 6px;
@@ -376,7 +395,8 @@ figure.float {
   margin-bottom: 4px;
 }
 
-.img4, .img4m {
+.img4,
+.img4m {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 6px;
@@ -495,7 +515,8 @@ hr {
   margin-bottom: 0;
 }
 
-[contenteditable], select {
+[contenteditable],
+select {
   outline: 0px solid transparent;
 }
 
@@ -508,7 +529,7 @@ select {
   border-radius: 5px;
   width: 90px;
   background: none !important;
-  font: 400 14px/1.2 "NEZUMONO", Menlo, Consolas, monospace;
+  font: 400 14px/1.2 "Nezu Fragment Gothic", Menlo, Consolas, monospace;
   color: #7c3e52;
   cursor: pointer;
 }
@@ -569,7 +590,7 @@ select {
   line-height: 0;
   cursor: pointer;
   display: none;
-  font: 700 14px/1.3 "NEZUMONO", Menlo, Consolas, monospace;
+  font: 700 14px/1.3 "Nezu Fragment Gothic", Menlo, Consolas, monospace;
   padding: 2em 6px;
 }
 
@@ -642,14 +663,29 @@ select {
   display: block;
 }
 
-#lightbox, #lightbox * {
+#lightbox,
+#lightbox * {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
 
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: inline;
+}
+
 @media (max-width: 885px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: inline;
+  }
   body {
     background: #fff;
   }
@@ -665,7 +701,15 @@ select {
   }
 }
 @media (max-width: 600px) {
-  .img2, .img3, .img4 {
+  .mobile {
+    display: inline;
+  }
+  .desktop {
+    display: none;
+  }
+  .img2,
+  .img3,
+  .img4 {
     display: grid;
     grid-template-columns: 1fr;
     margin-bottom: 4px;
@@ -697,6 +741,24 @@ select {
 @font-face {
   font-family: "NEZUMONO";
   src: url("/assets/fonts/NEZUMONO/NEZUMONO-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nezu Fragment Gothic";
+  src: url("/assets/fonts/NezuFragmentGothic/NezuFragmentGothic-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nezu Fragment Gothic";
+  src: url("/assets/fonts/NezuFragmentGothic/NezuFragmentGothic-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Nezu Fragment Gothic";
+  src: url("/assets/fonts/NezuFragmentGothic/NezuFragmentGothic-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }

@@ -26,14 +26,16 @@ I had a lot of fun with my design—shown below. I imagined waking up in a meado
   </figcaption>
 </figure>
 
-"Heaven shirt" is custom-manufactured, with a high quality 4-colour screenprint on the front. [Buy yours here](https://itemlabel.com/products/heaven-t-shirt)—if it's still in stock, at least.
+"Heaven shirt" is custom-manufactured, with a high quality 4-colour screenprint on the front. ~~Buy yours here—if it's still in stock, at least.~~ _It isn’t._
 
-If you have one and wanna show it off, send pics to [mel@nezu.world](mailto:mel@nezu.world)~ Or just mention [me](https://twitter.com/ncb0_) or [itemLabel](https://twitter.com/itemlabel) on Twitter, I guess.
+If you have one and wanna show it off, send pics to [hello@nezu.world](mailto:hello@nezu.world)~ Or just mention [me](https://twitter.com/ncb0_) or [itemLabel](https://twitter.com/itemlabel) on Twitter.
 
-* * *
+---
 
 #### Fonts
+
 - [tm-pico-A](/work/type/#pico-a) (unreleased)
 
 #### Tools
+
 - Adobe Illustrator CC 2021

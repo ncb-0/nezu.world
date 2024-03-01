@@ -6,28 +6,26 @@ name: "About"
 ---
 
 <figure class="float right">
-  <img src="{{ site.baseurl }}/assets/img/lisa.jpg">
+  <img src="{{ site.baseurl }}/assets/img/lisa_nobg.png">
 </figure>
 
 <!-- ### who? -->
 
-yo. i'm lisa. (she/her) i'm a multidisciplinary artist from toronto. my work spans [digital art]({{ site.baseurl }}/tag/art), [graphic design]({{ site.baseurl }}/tag/design), [type design]({{ site.baseurl }}/tag/type), [creative writing]({{ site.baseurl }}/tag/writing), [dj]({{ site.baseurl }}/tag/dj), whatever. i'm cute and i do a little bit of everything.
+I'm Lisa. (she/her/it) I'm a multidisciplinary artist from Toronto. My work spans [digital art]({{ site.baseurl }}/tag/art), [graphic design]({{ site.baseurl }}/tag/design), [type design]({{ site.baseurl }}/tag/type), [creative writing]({{ site.baseurl }}/tag/writing), [dj]({{ site.baseurl }}/tag/dj), whatever. I'm cute and I do a little bit of everything.
 
-you might also know me as mel, ncb0, nezu, etc.
+You might also know me as Mel, ncb0, nezu, etc. <span class="desktop">I look like this &rarr;</span>
 
 ## Availability
 
-i do not take art commissions. meaning, unfortunately, no, i will not draw your fursona. sorry! i'm a busy lady.
-
-however—i _am_ available for freelance work. i'm down to do album covers, logos, websites, custom type, whatever. hit me up. #business
+I am available for freelance work~ I do [album covers]({{ site.baseurl }}/work/mutants), [flyers]({{ site.baseurl }}/work/dollhouse), etc.
 
 ## Contact
 
-please reach me by email if you'd like to…
+Please reach me by email if you'd like to…
 
-- work with me: [business@nezu.world](mailto:business@nezu.world)
-- license my fonts: [fonts@nezu.world](mailto:fonts@nezu.world)
-- say hello: [hello@nezu.world](mailto:hello@nezu.world)
+- Work with me: [business@nezu.world](mailto:business@nezu.world)
+- License my fonts: [fonts@nezu.world](mailto:fonts@nezu.world)
+- Say hello: [hello@nezu.world](mailto:hello@nezu.world)
 
 <hr style="clear:none" />
 
