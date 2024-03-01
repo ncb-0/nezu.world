@@ -28,7 +28,7 @@ An existential sci-fi slice-of-life lesbian romance presented in stunning 400 DP
 
 ## Premise
 
-A naïve robot thinks herself human, until a freak accident at work reveals she's been working for the very company that *built* her.
+A naïve robot thinks herself human, until a freak accident at work reveals she's been working for the very company that _built_ her.
 
 A nonchalant tomboy is secretly and ashamedly in love with her childhood friend. After a brutal revelation, she realizes that all a sad robot wants is a hug.
 
@@ -36,10 +36,12 @@ A 30-something engineer's whole world is turned upside-down when she realizes th
 
 A gleeful schizophrenic artist finds a best friend and sister in the "freaky military android" she was initially terrified of.
 
-* * *
+---
 
 #### Fonts
+
 - [tm-mega](/work/type/#tm-mega) (unreleased)
 
 #### Tools
+
 - Clip Studio Paint Pro

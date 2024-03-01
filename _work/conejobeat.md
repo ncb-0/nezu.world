@@ -2,23 +2,7 @@
 title: "CONEJOBEAT"
 short: "CONEJOBEAT"
 name: "CONEJOBEAT"
-tags:
-  [
-    conejobeat,
-    net,
-    collective,
-    second-life,
-    event,
-    dj,
-    music,
-    with-others,
-    2020,
-    2021,
-    2022,
-    2023,
-    2024,
-    ongoing,
-  ]
+tags: [conejobeat, net, collective, second-life, event, dj, music, with-others, 2020, 2021, 2022, 2023, 2024, ongoing]
 year: 2020–
 date: 2024-02-17
 cover: golden.jpg
