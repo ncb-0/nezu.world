@@ -62,7 +62,7 @@ tag: wip
       Gallery:
     </h1>
     <div class="portfolio-grid">
-      {% assign sorted = site.art | sort: "date" | reverse %}
+      {% assign sorted = site.art | sort: "year" | reverse %}
       {% for item in sorted %}
         <a href="{{ item.url }}" class="plain">
           <div class="portfolio-item">
